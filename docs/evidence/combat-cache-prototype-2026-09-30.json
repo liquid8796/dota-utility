@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "evidenceKind": "bounded Read/Write prototype cache observation",
+  "sourceSha256": "aee879aca8e58009224feee37b138959fc80dd77908c51c79f1b6ec13bb2bc0c",
+  "sourceEncoding": "utf-16",
+  "observations": [
+    {
+      "kind": "start",
+      "utc": "2026-09-30T06:50:28.8112912+00:00",
+      "pid": 15212,
+      "sha256": "88fa24c60a8c68f84d25cc2285019889c05db0c55b2bed1165d6f98fa7c18215",
+      "method": "Read/Write bounded HUD cache; no game function calls or debugger",
+      "currentHeroVisibility": "Unknown"
+    },
+    {
+      "kind": "cache_sample",
+      "utc": "2026-09-30T06:50:28.8557449+00:00",
+      "playerId": 9,
+      "team": 3,
+      "heroHandle": "0045054B",
+      "heroClass": ".?AVC_DOTA_Unit_Hero_Leshrac@@",
+      "root": -1,
+      "capacity": 0,
+      "rejection": null,
+      "currentHeroVisibility": "Unknown",
+      "events": []
+    },
+    {
+      "kind": "cache_sample",
+      "utc": "2026-09-30T06:50:29.3724033+00:00",
+      "playerId": 9,
+      "team": 3,
+      "heroHandle": "0045054B",
+      "heroClass": ".?AVC_DOTA_Unit_Hero_Leshrac@@",
+      "root": -1,
+      "capacity": 0,
+      "rejection": null,
+      "currentHeroVisibility": "Unknown",
+      "events": []
+    },
+    {
+      "kind": "cache_sample",
+      "utc": "2026-09-30T06:50:29.8852724+00:00",
+      "playerId": 9,
+      "team": 3,
+      "heroHandle": "0045054B",
+      "heroClass": ".?AVC_DOTA_Unit_Hero_Leshrac@@",
+      "root": -1,
+      "capacity": 0,
+      "rejection": null,
+      "currentHeroVisibility": "Unknown",
+      "events": []
+    },
+    {
+      "kind": "cache_sample",
+      "utc": "2026-09-30T06:50:30.3973878+00:00",
+      "playerId": 9,
+      "team": 3,
+      "heroHandle": "0045054B",
+      "heroClass": ".?AVC_DOTA_Unit_Hero_Leshrac@@",
+      "root": -1,
+      "capacity": 0,
+      "rejection": null,
+      "currentHeroVisibility": "Unknown",
+      "events": []
+    },
+    {
+      "kind": "cache_sample",
+      "utc": "2026-09-30T06:50:30.9119402+00:00",
+      "playerId": 9,
+      "team": 3,
+      "heroHandle": "0045054B",
+      "heroClass": ".?AVC_DOTA_Unit_Hero_Leshrac@@",
+      "root": -1,
+      "capacity": 0,
+      "rejection": null,
+      "currentHeroVisibility": "Unknown",
+      "events": []
+    },
+    {
+      "kind": "cache_sample",
+      "utc": "2026-09-30T06:50:31.4234992+00:00",
+      "playerId": 9,
+      "team": 3,
+      "heroHandle": "0045054B",
+      "heroClass": ".?AVC_DOTA_Unit_Hero_Leshrac@@",
+      "root": -1,
+      "capacity": 0,
+      "rejection": null,
+      "currentHeroVisibility": "Unknown",
+      "events": []
+    },
+    {
+      "kind": "cache_sample",
+      "utc": "2026-09-30T06:50:31.9308381+00:00",
+      "playerId": 9,
+      "team": 3,
+      "heroHandle": "0045054B",
+      "heroClass": ".?AVC_DOTA_Unit_Hero_Leshrac@@",
+      "root": -1,
+      "capacity": 0,
+      "rejection": null,
+      "currentHeroVisibility": "Unknown",
+      "events": []
+    },
+    {
+      "kind": "cache_sample",
+      "utc": "2026-09-30T06:50:32.4412143+00:00",
+      "playerId": 9,
+      "team": 3,
+      "heroHandle": "0045054B",
+      "heroClass": ".?AVC_DOTA_Unit_Hero_Leshrac@@",
+      "root": -1,
+      "capacity": 0,
+      "rejection": null,
+      "currentHeroVisibility": "Unknown",
+      "events": []
+    },
+    {
+      "kind": "end",
+      "utc": "2026-09-30T06:50:32.942337+00:00"
+    }
+  ],
+  "currentHeroVisibility": "Unknown",
+  "canDriveCurrentOverlay": false,
+  "limits": [
+    "Eight samples, not an independently labelled enemy-sight experiment",
+    "An empty initialized cache does not prove no message delivery",
+    "No populated record, continuous state or ward-only transition was verified"
+  ]
+}

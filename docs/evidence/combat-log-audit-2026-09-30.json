@@ -1,0 +1,3076 @@
+{
+  "auditVersion": 2,
+  "scope": "offline embedded schemas, native receivers and selected server producers",
+  "readOnlyGameFiles": true,
+  "attachesDebugger": false,
+  "capturesNetworkPackets": false,
+  "modules": [
+    {
+      "module": "client.dll",
+      "sha256": "88fa24c60a8c68f84d25cc2285019889c05db0c55b2bed1165d6f98fa7c18215",
+      "descriptors": [
+        {
+          "name": "dota_shared_enums.proto",
+          "rva": "0x3d7ce70",
+          "size": 22746,
+          "sha256": "ab58abd71dfd0f5e46a9ffe35ddf3fb73dba50381691c0ab084b88304541fd71",
+          "messages": [
+            {
+              "name": "CMsgDOTACombatLogEntry",
+              "fields": [
+                {
+                  "name": "type",
+                  "number": 1,
+                  "label": 1,
+                  "type": 14,
+                  "typeName": ".DOTA_COMBATLOG_TYPES",
+                  "default": null
+                },
+                {
+                  "name": "target_name",
+                  "number": 2,
+                  "label": 1,
+                  "type": 13,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "target_source_name",
+                  "number": 3,
+                  "label": 1,
+                  "type": 13,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "attacker_name",
+                  "number": 4,
+                  "label": 1,
+                  "type": 13,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "damage_source_name",
+                  "number": 5,
+                  "label": 1,
+                  "type": 13,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "inflictor_name",
+                  "number": 6,
+                  "label": 1,
+                  "type": 13,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "is_attacker_illusion",
+                  "number": 7,
+                  "label": 1,
+                  "type": 8,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "is_attacker_hero",
+                  "number": 8,
+                  "label": 1,
+                  "type": 8,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "is_target_illusion",
+                  "number": 9,
+                  "label": 1,
+                  "type": 8,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "is_target_hero",
+                  "number": 10,
+                  "label": 1,
+                  "type": 8,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "is_visible_radiant",
+                  "number": 11,
+                  "label": 1,
+                  "type": 8,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "is_visible_dire",
+                  "number": 12,
+                  "label": 1,
+                  "type": 8,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "value",
+                  "number": 13,
+                  "label": 1,
+                  "type": 13,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "health",
+                  "number": 14,
+                  "label": 1,
+                  "type": 5,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "timestamp",
+                  "number": 15,
+                  "label": 1,
+                  "type": 2,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "stun_duration",
+                  "number": 16,
+                  "label": 1,
+                  "type": 2,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "slow_duration",
+                  "number": 17,
+                  "label": 1,
+                  "type": 2,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "is_ability_toggle_on",
+                  "number": 18,
+                  "label": 1,
+                  "type": 8,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "is_ability_toggle_off",
+                  "number": 19,
+                  "label": 1,
+                  "type": 8,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "ability_level",
+                  "number": 20,
+                  "label": 1,
+                  "type": 13,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "location_x",
+                  "number": 21,
+                  "label": 1,
+                  "type": 2,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "location_y",
+                  "number": 22,
+                  "label": 1,
+                  "type": 2,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "gold_reason",
+                  "number": 23,
+                  "label": 1,
+                  "type": 13,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "timestamp_raw",
+                  "number": 24,
+                  "label": 1,
+                  "type": 2,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "modifier_duration",
+                  "number": 25,
+                  "label": 1,
+                  "type": 2,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "xp_reason",
+                  "number": 26,
+                  "label": 1,
+                  "type": 13,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "last_hits",
+                  "number": 27,
+                  "label": 1,
+                  "type": 13,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "attacker_team",
+                  "number": 28,
+                  "label": 1,
+                  "type": 13,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "target_team",
+                  "number": 29,
+                  "label": 1,
+                  "type": 13,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "obs_wards_placed",
+                  "number": 30,
+                  "label": 1,
+                  "type": 13,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "assist_player0",
+                  "number": 31,
+                  "label": 1,
+                  "type": 13,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "assist_player1",
+                  "number": 32,
+                  "label": 1,
+                  "type": 13,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "assist_player2",
+                  "number": 33,
+                  "label": 1,
+                  "type": 13,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "assist_player3",
+                  "number": 34,
+                  "label": 1,
+                  "type": 13,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "stack_count",
+                  "number": 35,
+                  "label": 1,
+                  "type": 13,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "hidden_modifier",
+                  "number": 36,
+                  "label": 1,
+                  "type": 8,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "is_target_building",
+                  "number": 37,
+                  "label": 1,
+                  "type": 8,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "neutral_camp_type",
+                  "number": 38,
+                  "label": 1,
+                  "type": 13,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "rune_type",
+                  "number": 39,
+                  "label": 1,
+                  "type": 13,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "assist_players",
+                  "number": 40,
+                  "label": 3,
+                  "type": 5,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "is_heal_save",
+                  "number": 41,
+                  "label": 1,
+                  "type": 8,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "is_ultimate_ability",
+                  "number": 42,
+                  "label": 1,
+                  "type": 8,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "attacker_hero_level",
+                  "number": 43,
+                  "label": 1,
+                  "type": 13,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "target_hero_level",
+                  "number": 44,
+                  "label": 1,
+                  "type": 13,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "xpm",
+                  "number": 45,
+                  "label": 1,
+                  "type": 13,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "gpm",
+                  "number": 46,
+                  "label": 1,
+                  "type": 13,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "event_location",
+                  "number": 47,
+                  "label": 1,
+                  "type": 13,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "target_is_self",
+                  "number": 48,
+                  "label": 1,
+                  "type": 8,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "damage_type",
+                  "number": 49,
+                  "label": 1,
+                  "type": 13,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "invisibility_modifier",
+                  "number": 50,
+                  "label": 1,
+                  "type": 8,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "damage_category",
+                  "number": 51,
+                  "label": 1,
+                  "type": 13,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "networth",
+                  "number": 52,
+                  "label": 1,
+                  "type": 13,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "building_type",
+                  "number": 53,
+                  "label": 1,
+                  "type": 13,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "modifier_elapsed_duration",
+                  "number": 54,
+                  "label": 1,
+                  "type": 2,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "silence_modifier",
+                  "number": 55,
+                  "label": 1,
+                  "type": 8,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "heal_from_lifesteal",
+                  "number": 56,
+                  "label": 1,
+                  "type": 8,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "modifier_purged",
+                  "number": 57,
+                  "label": 1,
+                  "type": 8,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "spell_evaded",
+                  "number": 58,
+                  "label": 1,
+                  "type": 8,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "motion_controller_modifier",
+                  "number": 59,
+                  "label": 1,
+                  "type": 8,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "long_range_kill",
+                  "number": 60,
+                  "label": 1,
+                  "type": 8,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "modifier_purge_ability",
+                  "number": 61,
+                  "label": 1,
+                  "type": 13,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "modifier_purge_npc",
+                  "number": 62,
+                  "label": 1,
+                  "type": 13,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "root_modifier",
+                  "number": 63,
+                  "label": 1,
+                  "type": 8,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "total_unit_death_count",
+                  "number": 64,
+                  "label": 1,
+                  "type": 13,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "aura_modifier",
+                  "number": 65,
+                  "label": 1,
+                  "type": 8,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "armor_debuff_modifier",
+                  "number": 66,
+                  "label": 1,
+                  "type": 8,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "no_physical_damage_modifier",
+                  "number": 67,
+                  "label": 1,
+                  "type": 8,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "modifier_ability",
+                  "number": 68,
+                  "label": 1,
+                  "type": 13,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "modifier_hidden",
+                  "number": 69,
+                  "label": 1,
+                  "type": 8,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "inflictor_is_stolen_ability",
+                  "number": 70,
+                  "label": 1,
+                  "type": 8,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "kill_eater_event",
+                  "number": 71,
+                  "label": 1,
+                  "type": 13,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "unit_status_label",
+                  "number": 72,
+                  "label": 1,
+                  "type": 13,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "spell_generated_attack",
+                  "number": 73,
+                  "label": 1,
+                  "type": 8,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "at_night_time",
+                  "number": 74,
+                  "label": 1,
+                  "type": 8,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "attacker_has_scepter",
+                  "number": 75,
+                  "label": 1,
+                  "type": 8,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "neutral_camp_team",
+                  "number": 76,
+                  "label": 1,
+                  "type": 13,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "regenerated_health",
+                  "number": 77,
+                  "label": 1,
+                  "type": 2,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "will_reincarnate",
+                  "number": 78,
+                  "label": 1,
+                  "type": 8,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "uses_charges",
+                  "number": 79,
+                  "label": 1,
+                  "type": 8,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "tracked_stat_id",
+                  "number": 80,
+                  "label": 1,
+                  "type": 13,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "modifier_purged_duration",
+                  "number": 81,
+                  "label": 1,
+                  "type": 2,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "heal_from_regen",
+                  "number": 82,
+                  "label": 1,
+                  "type": 8,
+                  "typeName": null,
+                  "default": null
+                }
+              ]
+            }
+          ],
+          "enums": [
+            {
+              "name": "DOTA_COMBATLOG_TYPES",
+              "values": [
+                {
+                  "name": "DOTA_COMBATLOG_INVALID",
+                  "number": -1
+                },
+                {
+                  "name": "DOTA_COMBATLOG_DAMAGE",
+                  "number": 0
+                },
+                {
+                  "name": "DOTA_COMBATLOG_HEAL",
+                  "number": 1
+                },
+                {
+                  "name": "DOTA_COMBATLOG_MODIFIER_ADD",
+                  "number": 2
+                },
+                {
+                  "name": "DOTA_COMBATLOG_MODIFIER_REMOVE",
+                  "number": 3
+                },
+                {
+                  "name": "DOTA_COMBATLOG_DEATH",
+                  "number": 4
+                },
+                {
+                  "name": "DOTA_COMBATLOG_ABILITY",
+                  "number": 5
+                },
+                {
+                  "name": "DOTA_COMBATLOG_ITEM",
+                  "number": 6
+                },
+                {
+                  "name": "DOTA_COMBATLOG_LOCATION",
+                  "number": 7
+                },
+                {
+                  "name": "DOTA_COMBATLOG_GOLD",
+                  "number": 8
+                },
+                {
+                  "name": "DOTA_COMBATLOG_GAME_STATE",
+                  "number": 9
+                },
+                {
+                  "name": "DOTA_COMBATLOG_XP",
+                  "number": 10
+                },
+                {
+                  "name": "DOTA_COMBATLOG_PURCHASE",
+                  "number": 11
+                },
+                {
+                  "name": "DOTA_COMBATLOG_BUYBACK",
+                  "number": 12
+                },
+                {
+                  "name": "DOTA_COMBATLOG_ABILITY_TRIGGER",
+                  "number": 13
+                },
+                {
+                  "name": "DOTA_COMBATLOG_PLAYERSTATS",
+                  "number": 14
+                },
+                {
+                  "name": "DOTA_COMBATLOG_MULTIKILL",
+                  "number": 15
+                },
+                {
+                  "name": "DOTA_COMBATLOG_KILLSTREAK",
+                  "number": 16
+                },
+                {
+                  "name": "DOTA_COMBATLOG_TEAM_BUILDING_KILL",
+                  "number": 17
+                },
+                {
+                  "name": "DOTA_COMBATLOG_FIRST_BLOOD",
+                  "number": 18
+                },
+                {
+                  "name": "DOTA_COMBATLOG_MODIFIER_STACK_EVENT",
+                  "number": 19
+                },
+                {
+                  "name": "DOTA_COMBATLOG_NEUTRAL_CAMP_STACK",
+                  "number": 20
+                },
+                {
+                  "name": "DOTA_COMBATLOG_PICKUP_RUNE",
+                  "number": 21
+                },
+                {
+                  "name": "DOTA_COMBATLOG_REVEALED_INVISIBLE",
+                  "number": 22
+                },
+                {
+                  "name": "DOTA_COMBATLOG_HERO_SAVED",
+                  "number": 23
+                },
+                {
+                  "name": "DOTA_COMBATLOG_MANA_RESTORED",
+                  "number": 24
+                },
+                {
+                  "name": "DOTA_COMBATLOG_HERO_LEVELUP",
+                  "number": 25
+                },
+                {
+                  "name": "DOTA_COMBATLOG_BOTTLE_HEAL_ALLY",
+                  "number": 26
+                },
+                {
+                  "name": "DOTA_COMBATLOG_ENDGAME_STATS",
+                  "number": 27
+                },
+                {
+                  "name": "DOTA_COMBATLOG_INTERRUPT_CHANNEL",
+                  "number": 28
+                },
+                {
+                  "name": "DOTA_COMBATLOG_ALLIED_GOLD",
+                  "number": 29
+                },
+                {
+                  "name": "DOTA_COMBATLOG_AEGIS_TAKEN",
+                  "number": 30
+                },
+                {
+                  "name": "DOTA_COMBATLOG_MANA_DAMAGE",
+                  "number": 31
+                },
+                {
+                  "name": "DOTA_COMBATLOG_PHYSICAL_DAMAGE_PREVENTED",
+                  "number": 32
+                },
+                {
+                  "name": "DOTA_COMBATLOG_UNIT_SUMMONED",
+                  "number": 33
+                },
+                {
+                  "name": "DOTA_COMBATLOG_ATTACK_EVADE",
+                  "number": 34
+                },
+                {
+                  "name": "DOTA_COMBATLOG_TREE_CUT",
+                  "number": 35
+                },
+                {
+                  "name": "DOTA_COMBATLOG_SUCCESSFUL_SCAN",
+                  "number": 36
+                },
+                {
+                  "name": "DOTA_COMBATLOG_END_KILLSTREAK",
+                  "number": 37
+                },
+                {
+                  "name": "DOTA_COMBATLOG_BLOODSTONE_CHARGE",
+                  "number": 38
+                },
+                {
+                  "name": "DOTA_COMBATLOG_CRITICAL_DAMAGE",
+                  "number": 39
+                },
+                {
+                  "name": "DOTA_COMBATLOG_SPELL_ABSORB",
+                  "number": 40
+                },
+                {
+                  "name": "DOTA_COMBATLOG_UNIT_TELEPORTED",
+                  "number": 41
+                },
+                {
+                  "name": "DOTA_COMBATLOG_KILL_EATER_EVENT",
+                  "number": 42
+                },
+                {
+                  "name": "DOTA_COMBATLOG_NEUTRAL_ITEM_EARNED",
+                  "number": 43
+                },
+                {
+                  "name": "DOTA_COMBATLOG_STAT_TRACKER_PLAYER",
+                  "number": 44
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "dota_usermessages.proto",
+          "rva": "0x3d60940",
+          "size": 43676,
+          "sha256": "ac3cd37fc0b7ed9753d6eb45ce70bcc6922facaaf63d14b57da5470b980dfc4b",
+          "messages": [
+            {
+              "name": "CDOTAUserMsg_CombatLogBulkData",
+              "fields": [
+                {
+                  "name": "combat_entries",
+                  "number": 1,
+                  "label": 3,
+                  "type": 11,
+                  "typeName": ".CMsgDOTACombatLogEntry",
+                  "default": null
+                },
+                {
+                  "name": "timestamp",
+                  "number": 2,
+                  "label": 1,
+                  "type": 2,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "duration",
+                  "number": 3,
+                  "label": 1,
+                  "type": 2,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "player_id",
+                  "number": 4,
+                  "label": 1,
+                  "type": 5,
+                  "typeName": null,
+                  "default": "-1"
+                },
+                {
+                  "name": "request_time",
+                  "number": 5,
+                  "label": 1,
+                  "type": 2,
+                  "typeName": null,
+                  "default": null
+                }
+              ]
+            },
+            {
+              "name": "CDOTAUserMsg_UnitEvent",
+              "fields": [
+                {
+                  "name": "msg_type",
+                  "number": 1,
+                  "label": 1,
+                  "type": 14,
+                  "typeName": ".EDotaEntityMessages",
+                  "default": null
+                },
+                {
+                  "name": "entity_index",
+                  "number": 2,
+                  "label": 1,
+                  "type": 5,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "speech",
+                  "number": 3,
+                  "label": 1,
+                  "type": 11,
+                  "typeName": ".CDOTAUserMsg_UnitEvent.Speech",
+                  "default": null
+                },
+                {
+                  "name": "speech_mute",
+                  "number": 4,
+                  "label": 1,
+                  "type": 11,
+                  "typeName": ".CDOTAUserMsg_UnitEvent.SpeechMute",
+                  "default": null
+                },
+                {
+                  "name": "add_gesture",
+                  "number": 5,
+                  "label": 1,
+                  "type": 11,
+                  "typeName": ".CDOTAUserMsg_UnitEvent.AddGesture",
+                  "default": null
+                },
+                {
+                  "name": "remove_gesture",
+                  "number": 6,
+                  "label": 1,
+                  "type": 11,
+                  "typeName": ".CDOTAUserMsg_UnitEvent.RemoveGesture",
+                  "default": null
+                },
+                {
+                  "name": "blood_impact",
+                  "number": 7,
+                  "label": 1,
+                  "type": 11,
+                  "typeName": ".CDOTAUserMsg_UnitEvent.BloodImpact",
+                  "default": null
+                },
+                {
+                  "name": "fade_gesture",
+                  "number": 8,
+                  "label": 1,
+                  "type": 11,
+                  "typeName": ".CDOTAUserMsg_UnitEvent.FadeGesture",
+                  "default": null
+                },
+                {
+                  "name": "speech_match_on_client",
+                  "number": 9,
+                  "label": 1,
+                  "type": 11,
+                  "typeName": ".CDOTASpeechMatchOnClient",
+                  "default": null
+                }
+              ]
+            }
+          ],
+          "enums": [
+            {
+              "name": "EDotaUserMessages",
+              "values": [
+                {
+                  "name": "DOTA_UM_CombatLogData",
+                  "number": 468
+                },
+                {
+                  "name": "DOTA_UM_CombatLogBulkData",
+                  "number": 470
+                },
+                {
+                  "name": "DOTA_UM_CombatLogDataHLTV",
+                  "number": 554
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "dota_modifiers.proto",
+          "rva": "0x3d73e80",
+          "size": 1572,
+          "sha256": "1475f636ab20113ec84ec7878b4dbed056e4e104b4386efb18a6548e33b3eae2",
+          "messages": [
+            {
+              "name": "CDOTAModifierBuffTableEntry",
+              "fields": [
+                {
+                  "name": "entry_type",
+                  "number": 1,
+                  "label": 1,
+                  "type": 14,
+                  "typeName": ".DOTA_MODIFIER_ENTRY_TYPE",
+                  "default": null
+                },
+                {
+                  "name": "parent",
+                  "number": 2,
+                  "label": 1,
+                  "type": 13,
+                  "typeName": null,
+                  "default": "16777215"
+                },
+                {
+                  "name": "index",
+                  "number": 3,
+                  "label": 1,
+                  "type": 5,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "serial_num",
+                  "number": 4,
+                  "label": 1,
+                  "type": 5,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "modifier_class",
+                  "number": 5,
+                  "label": 1,
+                  "type": 5,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "ability_level",
+                  "number": 6,
+                  "label": 1,
+                  "type": 5,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "stack_count",
+                  "number": 7,
+                  "label": 1,
+                  "type": 5,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "creation_time",
+                  "number": 8,
+                  "label": 1,
+                  "type": 2,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "duration",
+                  "number": 9,
+                  "label": 1,
+                  "type": 2,
+                  "typeName": null,
+                  "default": "-1"
+                },
+                {
+                  "name": "caster",
+                  "number": 10,
+                  "label": 1,
+                  "type": 13,
+                  "typeName": null,
+                  "default": "16777215"
+                },
+                {
+                  "name": "ability",
+                  "number": 11,
+                  "label": 1,
+                  "type": 13,
+                  "typeName": null,
+                  "default": "16777215"
+                },
+                {
+                  "name": "armor",
+                  "number": 12,
+                  "label": 1,
+                  "type": 5,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "fade_time",
+                  "number": 13,
+                  "label": 1,
+                  "type": 2,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "subtle",
+                  "number": 14,
+                  "label": 1,
+                  "type": 8,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "channel_time",
+                  "number": 15,
+                  "label": 1,
+                  "type": 2,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "v_start",
+                  "number": 16,
+                  "label": 1,
+                  "type": 11,
+                  "typeName": ".CMsgVector",
+                  "default": null
+                },
+                {
+                  "name": "v_end",
+                  "number": 17,
+                  "label": 1,
+                  "type": 11,
+                  "typeName": ".CMsgVector",
+                  "default": null
+                },
+                {
+                  "name": "portal_loop_appear",
+                  "number": 18,
+                  "label": 1,
+                  "type": 9,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "portal_loop_disappear",
+                  "number": 19,
+                  "label": 1,
+                  "type": 9,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "hero_loop_appear",
+                  "number": 20,
+                  "label": 1,
+                  "type": 9,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "hero_loop_disappear",
+                  "number": 21,
+                  "label": 1,
+                  "type": 9,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "movement_speed",
+                  "number": 22,
+                  "label": 1,
+                  "type": 5,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "aura",
+                  "number": 23,
+                  "label": 1,
+                  "type": 8,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "activity",
+                  "number": 24,
+                  "label": 1,
+                  "type": 5,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "damage",
+                  "number": 25,
+                  "label": 1,
+                  "type": 5,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "range",
+                  "number": 26,
+                  "label": 1,
+                  "type": 5,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "dd_modifier_index",
+                  "number": 27,
+                  "label": 1,
+                  "type": 5,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "dd_ability_id",
+                  "number": 28,
+                  "label": 1,
+                  "type": 5,
+                  "typeName": null,
+                  "default": "-1"
+                },
+                {
+                  "name": "illusion_label",
+                  "number": 29,
+                  "label": 1,
+                  "type": 9,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "active",
+                  "number": 30,
+                  "label": 1,
+                  "type": 8,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "player_ids",
+                  "number": 31,
+                  "label": 1,
+                  "type": 9,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "lua_name",
+                  "number": 32,
+                  "label": 1,
+                  "type": 9,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "attack_speed",
+                  "number": 33,
+                  "label": 1,
+                  "type": 5,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "aura_owner",
+                  "number": 34,
+                  "label": 1,
+                  "type": 13,
+                  "typeName": null,
+                  "default": "16777215"
+                },
+                {
+                  "name": "bonus_all_stats",
+                  "number": 35,
+                  "label": 1,
+                  "type": 5,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "bonus_health",
+                  "number": 36,
+                  "label": 1,
+                  "type": 5,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "bonus_mana",
+                  "number": 37,
+                  "label": 1,
+                  "type": 5,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "custom_entity",
+                  "number": 38,
+                  "label": 1,
+                  "type": 13,
+                  "typeName": null,
+                  "default": "16777215"
+                },
+                {
+                  "name": "aura_within_range",
+                  "number": 39,
+                  "label": 1,
+                  "type": 8,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "move_slow",
+                  "number": 40,
+                  "label": 1,
+                  "type": 2,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "has_scepter",
+                  "number": 41,
+                  "label": 1,
+                  "type": 8,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "has_shard",
+                  "number": 42,
+                  "label": 1,
+                  "type": 8,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "custom_int_values",
+                  "number": 43,
+                  "label": 3,
+                  "type": 5,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "custom_float_values",
+                  "number": 44,
+                  "label": 3,
+                  "type": 2,
+                  "typeName": null,
+                  "default": null
+                }
+              ]
+            }
+          ],
+          "enums": []
+        }
+      ]
+    },
+    {
+      "module": "server.dll",
+      "sha256": "02b90bbb5814bc1af39cada58b6b8311808e01e84aa8fab894bdaea896a8cd47",
+      "descriptors": [
+        {
+          "name": "dota_shared_enums.proto",
+          "rva": "0x2e98910",
+          "size": 22746,
+          "sha256": "ab58abd71dfd0f5e46a9ffe35ddf3fb73dba50381691c0ab084b88304541fd71",
+          "messages": [
+            {
+              "name": "CMsgDOTACombatLogEntry",
+              "fields": [
+                {
+                  "name": "type",
+                  "number": 1,
+                  "label": 1,
+                  "type": 14,
+                  "typeName": ".DOTA_COMBATLOG_TYPES",
+                  "default": null
+                },
+                {
+                  "name": "target_name",
+                  "number": 2,
+                  "label": 1,
+                  "type": 13,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "target_source_name",
+                  "number": 3,
+                  "label": 1,
+                  "type": 13,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "attacker_name",
+                  "number": 4,
+                  "label": 1,
+                  "type": 13,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "damage_source_name",
+                  "number": 5,
+                  "label": 1,
+                  "type": 13,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "inflictor_name",
+                  "number": 6,
+                  "label": 1,
+                  "type": 13,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "is_attacker_illusion",
+                  "number": 7,
+                  "label": 1,
+                  "type": 8,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "is_attacker_hero",
+                  "number": 8,
+                  "label": 1,
+                  "type": 8,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "is_target_illusion",
+                  "number": 9,
+                  "label": 1,
+                  "type": 8,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "is_target_hero",
+                  "number": 10,
+                  "label": 1,
+                  "type": 8,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "is_visible_radiant",
+                  "number": 11,
+                  "label": 1,
+                  "type": 8,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "is_visible_dire",
+                  "number": 12,
+                  "label": 1,
+                  "type": 8,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "value",
+                  "number": 13,
+                  "label": 1,
+                  "type": 13,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "health",
+                  "number": 14,
+                  "label": 1,
+                  "type": 5,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "timestamp",
+                  "number": 15,
+                  "label": 1,
+                  "type": 2,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "stun_duration",
+                  "number": 16,
+                  "label": 1,
+                  "type": 2,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "slow_duration",
+                  "number": 17,
+                  "label": 1,
+                  "type": 2,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "is_ability_toggle_on",
+                  "number": 18,
+                  "label": 1,
+                  "type": 8,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "is_ability_toggle_off",
+                  "number": 19,
+                  "label": 1,
+                  "type": 8,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "ability_level",
+                  "number": 20,
+                  "label": 1,
+                  "type": 13,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "location_x",
+                  "number": 21,
+                  "label": 1,
+                  "type": 2,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "location_y",
+                  "number": 22,
+                  "label": 1,
+                  "type": 2,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "gold_reason",
+                  "number": 23,
+                  "label": 1,
+                  "type": 13,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "timestamp_raw",
+                  "number": 24,
+                  "label": 1,
+                  "type": 2,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "modifier_duration",
+                  "number": 25,
+                  "label": 1,
+                  "type": 2,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "xp_reason",
+                  "number": 26,
+                  "label": 1,
+                  "type": 13,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "last_hits",
+                  "number": 27,
+                  "label": 1,
+                  "type": 13,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "attacker_team",
+                  "number": 28,
+                  "label": 1,
+                  "type": 13,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "target_team",
+                  "number": 29,
+                  "label": 1,
+                  "type": 13,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "obs_wards_placed",
+                  "number": 30,
+                  "label": 1,
+                  "type": 13,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "assist_player0",
+                  "number": 31,
+                  "label": 1,
+                  "type": 13,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "assist_player1",
+                  "number": 32,
+                  "label": 1,
+                  "type": 13,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "assist_player2",
+                  "number": 33,
+                  "label": 1,
+                  "type": 13,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "assist_player3",
+                  "number": 34,
+                  "label": 1,
+                  "type": 13,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "stack_count",
+                  "number": 35,
+                  "label": 1,
+                  "type": 13,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "hidden_modifier",
+                  "number": 36,
+                  "label": 1,
+                  "type": 8,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "is_target_building",
+                  "number": 37,
+                  "label": 1,
+                  "type": 8,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "neutral_camp_type",
+                  "number": 38,
+                  "label": 1,
+                  "type": 13,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "rune_type",
+                  "number": 39,
+                  "label": 1,
+                  "type": 13,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "assist_players",
+                  "number": 40,
+                  "label": 3,
+                  "type": 5,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "is_heal_save",
+                  "number": 41,
+                  "label": 1,
+                  "type": 8,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "is_ultimate_ability",
+                  "number": 42,
+                  "label": 1,
+                  "type": 8,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "attacker_hero_level",
+                  "number": 43,
+                  "label": 1,
+                  "type": 13,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "target_hero_level",
+                  "number": 44,
+                  "label": 1,
+                  "type": 13,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "xpm",
+                  "number": 45,
+                  "label": 1,
+                  "type": 13,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "gpm",
+                  "number": 46,
+                  "label": 1,
+                  "type": 13,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "event_location",
+                  "number": 47,
+                  "label": 1,
+                  "type": 13,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "target_is_self",
+                  "number": 48,
+                  "label": 1,
+                  "type": 8,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "damage_type",
+                  "number": 49,
+                  "label": 1,
+                  "type": 13,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "invisibility_modifier",
+                  "number": 50,
+                  "label": 1,
+                  "type": 8,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "damage_category",
+                  "number": 51,
+                  "label": 1,
+                  "type": 13,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "networth",
+                  "number": 52,
+                  "label": 1,
+                  "type": 13,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "building_type",
+                  "number": 53,
+                  "label": 1,
+                  "type": 13,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "modifier_elapsed_duration",
+                  "number": 54,
+                  "label": 1,
+                  "type": 2,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "silence_modifier",
+                  "number": 55,
+                  "label": 1,
+                  "type": 8,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "heal_from_lifesteal",
+                  "number": 56,
+                  "label": 1,
+                  "type": 8,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "modifier_purged",
+                  "number": 57,
+                  "label": 1,
+                  "type": 8,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "spell_evaded",
+                  "number": 58,
+                  "label": 1,
+                  "type": 8,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "motion_controller_modifier",
+                  "number": 59,
+                  "label": 1,
+                  "type": 8,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "long_range_kill",
+                  "number": 60,
+                  "label": 1,
+                  "type": 8,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "modifier_purge_ability",
+                  "number": 61,
+                  "label": 1,
+                  "type": 13,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "modifier_purge_npc",
+                  "number": 62,
+                  "label": 1,
+                  "type": 13,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "root_modifier",
+                  "number": 63,
+                  "label": 1,
+                  "type": 8,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "total_unit_death_count",
+                  "number": 64,
+                  "label": 1,
+                  "type": 13,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "aura_modifier",
+                  "number": 65,
+                  "label": 1,
+                  "type": 8,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "armor_debuff_modifier",
+                  "number": 66,
+                  "label": 1,
+                  "type": 8,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "no_physical_damage_modifier",
+                  "number": 67,
+                  "label": 1,
+                  "type": 8,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "modifier_ability",
+                  "number": 68,
+                  "label": 1,
+                  "type": 13,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "modifier_hidden",
+                  "number": 69,
+                  "label": 1,
+                  "type": 8,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "inflictor_is_stolen_ability",
+                  "number": 70,
+                  "label": 1,
+                  "type": 8,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "kill_eater_event",
+                  "number": 71,
+                  "label": 1,
+                  "type": 13,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "unit_status_label",
+                  "number": 72,
+                  "label": 1,
+                  "type": 13,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "spell_generated_attack",
+                  "number": 73,
+                  "label": 1,
+                  "type": 8,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "at_night_time",
+                  "number": 74,
+                  "label": 1,
+                  "type": 8,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "attacker_has_scepter",
+                  "number": 75,
+                  "label": 1,
+                  "type": 8,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "neutral_camp_team",
+                  "number": 76,
+                  "label": 1,
+                  "type": 13,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "regenerated_health",
+                  "number": 77,
+                  "label": 1,
+                  "type": 2,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "will_reincarnate",
+                  "number": 78,
+                  "label": 1,
+                  "type": 8,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "uses_charges",
+                  "number": 79,
+                  "label": 1,
+                  "type": 8,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "tracked_stat_id",
+                  "number": 80,
+                  "label": 1,
+                  "type": 13,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "modifier_purged_duration",
+                  "number": 81,
+                  "label": 1,
+                  "type": 2,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "heal_from_regen",
+                  "number": 82,
+                  "label": 1,
+                  "type": 8,
+                  "typeName": null,
+                  "default": null
+                }
+              ]
+            }
+          ],
+          "enums": [
+            {
+              "name": "DOTA_COMBATLOG_TYPES",
+              "values": [
+                {
+                  "name": "DOTA_COMBATLOG_INVALID",
+                  "number": -1
+                },
+                {
+                  "name": "DOTA_COMBATLOG_DAMAGE",
+                  "number": 0
+                },
+                {
+                  "name": "DOTA_COMBATLOG_HEAL",
+                  "number": 1
+                },
+                {
+                  "name": "DOTA_COMBATLOG_MODIFIER_ADD",
+                  "number": 2
+                },
+                {
+                  "name": "DOTA_COMBATLOG_MODIFIER_REMOVE",
+                  "number": 3
+                },
+                {
+                  "name": "DOTA_COMBATLOG_DEATH",
+                  "number": 4
+                },
+                {
+                  "name": "DOTA_COMBATLOG_ABILITY",
+                  "number": 5
+                },
+                {
+                  "name": "DOTA_COMBATLOG_ITEM",
+                  "number": 6
+                },
+                {
+                  "name": "DOTA_COMBATLOG_LOCATION",
+                  "number": 7
+                },
+                {
+                  "name": "DOTA_COMBATLOG_GOLD",
+                  "number": 8
+                },
+                {
+                  "name": "DOTA_COMBATLOG_GAME_STATE",
+                  "number": 9
+                },
+                {
+                  "name": "DOTA_COMBATLOG_XP",
+                  "number": 10
+                },
+                {
+                  "name": "DOTA_COMBATLOG_PURCHASE",
+                  "number": 11
+                },
+                {
+                  "name": "DOTA_COMBATLOG_BUYBACK",
+                  "number": 12
+                },
+                {
+                  "name": "DOTA_COMBATLOG_ABILITY_TRIGGER",
+                  "number": 13
+                },
+                {
+                  "name": "DOTA_COMBATLOG_PLAYERSTATS",
+                  "number": 14
+                },
+                {
+                  "name": "DOTA_COMBATLOG_MULTIKILL",
+                  "number": 15
+                },
+                {
+                  "name": "DOTA_COMBATLOG_KILLSTREAK",
+                  "number": 16
+                },
+                {
+                  "name": "DOTA_COMBATLOG_TEAM_BUILDING_KILL",
+                  "number": 17
+                },
+                {
+                  "name": "DOTA_COMBATLOG_FIRST_BLOOD",
+                  "number": 18
+                },
+                {
+                  "name": "DOTA_COMBATLOG_MODIFIER_STACK_EVENT",
+                  "number": 19
+                },
+                {
+                  "name": "DOTA_COMBATLOG_NEUTRAL_CAMP_STACK",
+                  "number": 20
+                },
+                {
+                  "name": "DOTA_COMBATLOG_PICKUP_RUNE",
+                  "number": 21
+                },
+                {
+                  "name": "DOTA_COMBATLOG_REVEALED_INVISIBLE",
+                  "number": 22
+                },
+                {
+                  "name": "DOTA_COMBATLOG_HERO_SAVED",
+                  "number": 23
+                },
+                {
+                  "name": "DOTA_COMBATLOG_MANA_RESTORED",
+                  "number": 24
+                },
+                {
+                  "name": "DOTA_COMBATLOG_HERO_LEVELUP",
+                  "number": 25
+                },
+                {
+                  "name": "DOTA_COMBATLOG_BOTTLE_HEAL_ALLY",
+                  "number": 26
+                },
+                {
+                  "name": "DOTA_COMBATLOG_ENDGAME_STATS",
+                  "number": 27
+                },
+                {
+                  "name": "DOTA_COMBATLOG_INTERRUPT_CHANNEL",
+                  "number": 28
+                },
+                {
+                  "name": "DOTA_COMBATLOG_ALLIED_GOLD",
+                  "number": 29
+                },
+                {
+                  "name": "DOTA_COMBATLOG_AEGIS_TAKEN",
+                  "number": 30
+                },
+                {
+                  "name": "DOTA_COMBATLOG_MANA_DAMAGE",
+                  "number": 31
+                },
+                {
+                  "name": "DOTA_COMBATLOG_PHYSICAL_DAMAGE_PREVENTED",
+                  "number": 32
+                },
+                {
+                  "name": "DOTA_COMBATLOG_UNIT_SUMMONED",
+                  "number": 33
+                },
+                {
+                  "name": "DOTA_COMBATLOG_ATTACK_EVADE",
+                  "number": 34
+                },
+                {
+                  "name": "DOTA_COMBATLOG_TREE_CUT",
+                  "number": 35
+                },
+                {
+                  "name": "DOTA_COMBATLOG_SUCCESSFUL_SCAN",
+                  "number": 36
+                },
+                {
+                  "name": "DOTA_COMBATLOG_END_KILLSTREAK",
+                  "number": 37
+                },
+                {
+                  "name": "DOTA_COMBATLOG_BLOODSTONE_CHARGE",
+                  "number": 38
+                },
+                {
+                  "name": "DOTA_COMBATLOG_CRITICAL_DAMAGE",
+                  "number": 39
+                },
+                {
+                  "name": "DOTA_COMBATLOG_SPELL_ABSORB",
+                  "number": 40
+                },
+                {
+                  "name": "DOTA_COMBATLOG_UNIT_TELEPORTED",
+                  "number": 41
+                },
+                {
+                  "name": "DOTA_COMBATLOG_KILL_EATER_EVENT",
+                  "number": 42
+                },
+                {
+                  "name": "DOTA_COMBATLOG_NEUTRAL_ITEM_EARNED",
+                  "number": 43
+                },
+                {
+                  "name": "DOTA_COMBATLOG_STAT_TRACKER_PLAYER",
+                  "number": 44
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "dota_usermessages.proto",
+          "rva": "0x2e87600",
+          "size": 43676,
+          "sha256": "ac3cd37fc0b7ed9753d6eb45ce70bcc6922facaaf63d14b57da5470b980dfc4b",
+          "messages": [
+            {
+              "name": "CDOTAUserMsg_CombatLogBulkData",
+              "fields": [
+                {
+                  "name": "combat_entries",
+                  "number": 1,
+                  "label": 3,
+                  "type": 11,
+                  "typeName": ".CMsgDOTACombatLogEntry",
+                  "default": null
+                },
+                {
+                  "name": "timestamp",
+                  "number": 2,
+                  "label": 1,
+                  "type": 2,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "duration",
+                  "number": 3,
+                  "label": 1,
+                  "type": 2,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "player_id",
+                  "number": 4,
+                  "label": 1,
+                  "type": 5,
+                  "typeName": null,
+                  "default": "-1"
+                },
+                {
+                  "name": "request_time",
+                  "number": 5,
+                  "label": 1,
+                  "type": 2,
+                  "typeName": null,
+                  "default": null
+                }
+              ]
+            },
+            {
+              "name": "CDOTAUserMsg_UnitEvent",
+              "fields": [
+                {
+                  "name": "msg_type",
+                  "number": 1,
+                  "label": 1,
+                  "type": 14,
+                  "typeName": ".EDotaEntityMessages",
+                  "default": null
+                },
+                {
+                  "name": "entity_index",
+                  "number": 2,
+                  "label": 1,
+                  "type": 5,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "speech",
+                  "number": 3,
+                  "label": 1,
+                  "type": 11,
+                  "typeName": ".CDOTAUserMsg_UnitEvent.Speech",
+                  "default": null
+                },
+                {
+                  "name": "speech_mute",
+                  "number": 4,
+                  "label": 1,
+                  "type": 11,
+                  "typeName": ".CDOTAUserMsg_UnitEvent.SpeechMute",
+                  "default": null
+                },
+                {
+                  "name": "add_gesture",
+                  "number": 5,
+                  "label": 1,
+                  "type": 11,
+                  "typeName": ".CDOTAUserMsg_UnitEvent.AddGesture",
+                  "default": null
+                },
+                {
+                  "name": "remove_gesture",
+                  "number": 6,
+                  "label": 1,
+                  "type": 11,
+                  "typeName": ".CDOTAUserMsg_UnitEvent.RemoveGesture",
+                  "default": null
+                },
+                {
+                  "name": "blood_impact",
+                  "number": 7,
+                  "label": 1,
+                  "type": 11,
+                  "typeName": ".CDOTAUserMsg_UnitEvent.BloodImpact",
+                  "default": null
+                },
+                {
+                  "name": "fade_gesture",
+                  "number": 8,
+                  "label": 1,
+                  "type": 11,
+                  "typeName": ".CDOTAUserMsg_UnitEvent.FadeGesture",
+                  "default": null
+                },
+                {
+                  "name": "speech_match_on_client",
+                  "number": 9,
+                  "label": 1,
+                  "type": 11,
+                  "typeName": ".CDOTASpeechMatchOnClient",
+                  "default": null
+                }
+              ]
+            }
+          ],
+          "enums": [
+            {
+              "name": "EDotaUserMessages",
+              "values": [
+                {
+                  "name": "DOTA_UM_CombatLogData",
+                  "number": 468
+                },
+                {
+                  "name": "DOTA_UM_CombatLogBulkData",
+                  "number": 470
+                },
+                {
+                  "name": "DOTA_UM_CombatLogDataHLTV",
+                  "number": 554
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "dota_modifiers.proto",
+          "rva": "0x2ebefc0",
+          "size": 1572,
+          "sha256": "1475f636ab20113ec84ec7878b4dbed056e4e104b4386efb18a6548e33b3eae2",
+          "messages": [
+            {
+              "name": "CDOTAModifierBuffTableEntry",
+              "fields": [
+                {
+                  "name": "entry_type",
+                  "number": 1,
+                  "label": 1,
+                  "type": 14,
+                  "typeName": ".DOTA_MODIFIER_ENTRY_TYPE",
+                  "default": null
+                },
+                {
+                  "name": "parent",
+                  "number": 2,
+                  "label": 1,
+                  "type": 13,
+                  "typeName": null,
+                  "default": "16777215"
+                },
+                {
+                  "name": "index",
+                  "number": 3,
+                  "label": 1,
+                  "type": 5,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "serial_num",
+                  "number": 4,
+                  "label": 1,
+                  "type": 5,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "modifier_class",
+                  "number": 5,
+                  "label": 1,
+                  "type": 5,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "ability_level",
+                  "number": 6,
+                  "label": 1,
+                  "type": 5,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "stack_count",
+                  "number": 7,
+                  "label": 1,
+                  "type": 5,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "creation_time",
+                  "number": 8,
+                  "label": 1,
+                  "type": 2,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "duration",
+                  "number": 9,
+                  "label": 1,
+                  "type": 2,
+                  "typeName": null,
+                  "default": "-1"
+                },
+                {
+                  "name": "caster",
+                  "number": 10,
+                  "label": 1,
+                  "type": 13,
+                  "typeName": null,
+                  "default": "16777215"
+                },
+                {
+                  "name": "ability",
+                  "number": 11,
+                  "label": 1,
+                  "type": 13,
+                  "typeName": null,
+                  "default": "16777215"
+                },
+                {
+                  "name": "armor",
+                  "number": 12,
+                  "label": 1,
+                  "type": 5,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "fade_time",
+                  "number": 13,
+                  "label": 1,
+                  "type": 2,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "subtle",
+                  "number": 14,
+                  "label": 1,
+                  "type": 8,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "channel_time",
+                  "number": 15,
+                  "label": 1,
+                  "type": 2,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "v_start",
+                  "number": 16,
+                  "label": 1,
+                  "type": 11,
+                  "typeName": ".CMsgVector",
+                  "default": null
+                },
+                {
+                  "name": "v_end",
+                  "number": 17,
+                  "label": 1,
+                  "type": 11,
+                  "typeName": ".CMsgVector",
+                  "default": null
+                },
+                {
+                  "name": "portal_loop_appear",
+                  "number": 18,
+                  "label": 1,
+                  "type": 9,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "portal_loop_disappear",
+                  "number": 19,
+                  "label": 1,
+                  "type": 9,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "hero_loop_appear",
+                  "number": 20,
+                  "label": 1,
+                  "type": 9,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "hero_loop_disappear",
+                  "number": 21,
+                  "label": 1,
+                  "type": 9,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "movement_speed",
+                  "number": 22,
+                  "label": 1,
+                  "type": 5,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "aura",
+                  "number": 23,
+                  "label": 1,
+                  "type": 8,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "activity",
+                  "number": 24,
+                  "label": 1,
+                  "type": 5,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "damage",
+                  "number": 25,
+                  "label": 1,
+                  "type": 5,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "range",
+                  "number": 26,
+                  "label": 1,
+                  "type": 5,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "dd_modifier_index",
+                  "number": 27,
+                  "label": 1,
+                  "type": 5,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "dd_ability_id",
+                  "number": 28,
+                  "label": 1,
+                  "type": 5,
+                  "typeName": null,
+                  "default": "-1"
+                },
+                {
+                  "name": "illusion_label",
+                  "number": 29,
+                  "label": 1,
+                  "type": 9,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "active",
+                  "number": 30,
+                  "label": 1,
+                  "type": 8,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "player_ids",
+                  "number": 31,
+                  "label": 1,
+                  "type": 9,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "lua_name",
+                  "number": 32,
+                  "label": 1,
+                  "type": 9,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "attack_speed",
+                  "number": 33,
+                  "label": 1,
+                  "type": 5,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "aura_owner",
+                  "number": 34,
+                  "label": 1,
+                  "type": 13,
+                  "typeName": null,
+                  "default": "16777215"
+                },
+                {
+                  "name": "bonus_all_stats",
+                  "number": 35,
+                  "label": 1,
+                  "type": 5,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "bonus_health",
+                  "number": 36,
+                  "label": 1,
+                  "type": 5,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "bonus_mana",
+                  "number": 37,
+                  "label": 1,
+                  "type": 5,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "custom_entity",
+                  "number": 38,
+                  "label": 1,
+                  "type": 13,
+                  "typeName": null,
+                  "default": "16777215"
+                },
+                {
+                  "name": "aura_within_range",
+                  "number": 39,
+                  "label": 1,
+                  "type": 8,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "move_slow",
+                  "number": 40,
+                  "label": 1,
+                  "type": 2,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "has_scepter",
+                  "number": 41,
+                  "label": 1,
+                  "type": 8,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "has_shard",
+                  "number": 42,
+                  "label": 1,
+                  "type": 8,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "custom_int_values",
+                  "number": 43,
+                  "label": 3,
+                  "type": 5,
+                  "typeName": null,
+                  "default": null
+                },
+                {
+                  "name": "custom_float_values",
+                  "number": 44,
+                  "label": 3,
+                  "type": 2,
+                  "typeName": null,
+                  "default": null
+                }
+              ]
+            }
+          ],
+          "enums": []
+        }
+      ]
+    }
+  ],
+  "clientReceivePaths": {
+    "bindings": [
+      {
+        "message": "CombatLogData",
+        "messageId": 468,
+        "wrapperVtableRva": "0x4927338",
+        "listenerVtableRva": "0x492aa50",
+        "listenerType": ".?AV?$CGameMessageDelegateHook@VCDOTAUserMsg_CombatLogData_t@@@@",
+        "callbackRva": "0x1ca59b0",
+        "bindingRva": "0x1c3d287",
+        "idLoadRva": "0xeebc71"
+      },
+      {
+        "message": "CombatLogBulkData",
+        "messageId": 470,
+        "wrapperVtableRva": "0x49273f8",
+        "listenerVtableRva": "0x492aa88",
+        "listenerType": ".?AV?$CGameMessageDelegateHook@VCDOTAUserMsg_CombatLogBulkData_t@@@@",
+        "callbackRva": "0x1ca5860",
+        "bindingRva": "0x1c3d3da",
+        "idLoadRva": "0xe94451"
+      },
+      {
+        "message": "CombatLogDataHLTV",
+        "messageId": 554,
+        "wrapperVtableRva": "0x483f198",
+        "listenerVtableRva": "0x492ab30",
+        "listenerType": ".?AV?$CGameMessageDelegateHook@VCDOTAUserMsg_CombatLogDataHLTV_t@@@@",
+        "callbackRva": "0x1ca59f0",
+        "bindingRva": "0x1c3d7d3",
+        "idLoadRva": "0xedd6c1"
+      }
+    ],
+    "normalHudPointerSlotRva": "0x642c498",
+    "normalHudIngestRva": "0x30e0a90",
+    "archiveInsertRva": "0x1c54a80",
+    "branches": [
+      {
+        "instructionRva": "0x1ca59b9",
+        "targetRva": "0x30f1380"
+      },
+      {
+        "instructionRva": "0x1ca59d7",
+        "targetRva": "0x30e0a90"
+      },
+      {
+        "instructionRva": "0x1ca58f6",
+        "targetRva": "0x1c54a80"
+      },
+      {
+        "instructionRva": "0x1ca5a1b",
+        "targetRva": "0x1c54a80"
+      }
+    ],
+    "interpretation": "Distinct native normal/bulk/HLTV routes; static code, not observed delivery.",
+    "presenceMapping": {
+      "hasBitsOffset": "0x10",
+      "radiant": {
+        "field": 11,
+        "presenceBit": 12,
+        "valueOffset": "0x54"
+      },
+      "dire": {
+        "field": 12,
+        "presenceBit": 13,
+        "valueOffset": "0x55"
+      },
+      "checks": [
+        {
+          "rva": "0xcd2353",
+          "bytes": "418b4f30"
+        },
+        {
+          "rva": "0xcd235b",
+          "bytes": "c60310"
+        },
+        {
+          "rva": "0xcd26e6",
+          "bytes": "0fbae60b"
+        },
+        {
+          "rva": "0xcd26ff",
+          "bytes": "f3410f104750"
+        },
+        {
+          "rva": "0xcd2705",
+          "bytes": "c6037d"
+        },
+        {
+          "rva": "0xcd2336",
+          "bytes": "418b7710"
+        },
+        {
+          "rva": "0xcd25c7",
+          "bytes": "0fbae60c"
+        },
+        {
+          "rva": "0xcd25e0",
+          "bytes": "410fb64754"
+        },
+        {
+          "rva": "0xcd25e7",
+          "bytes": "c60358"
+        },
+        {
+          "rva": "0xcd25f4",
+          "bytes": "0fbae60d"
+        },
+        {
+          "rva": "0xcd260d",
+          "bytes": "410fb64755"
+        },
+        {
+          "rva": "0xcd2614",
+          "bytes": "c60360"
+        }
+      ]
+    }
+  },
+  "serverSenderPaths": {
+    "method": "Hash-pinned instructions, RTTI, message IDs and direct call targets",
+    "producer": {
+      "constructionRva": "0x1e6627a",
+      "wrapperMessageId": 554,
+      "idLoadRva": "0xc10521",
+      "recordFrameBase": "rbp-0x50",
+      "predicateCalls": [
+        "0x1e66742",
+        "0x1e66753",
+        "0x1e66774",
+        "0x1e66785"
+      ],
+      "perTeamPredicateRva": "0x19fffd0",
+      "serverEntityMaskOffset": "0x544",
+      "radiantSetRva": "0x1e6675c",
+      "direSetRva": "0x1e6678e",
+      "flagRule": "Set true when participant A OR participant B is visible to that team.",
+      "participantIdentity": "Registers r12/rsi; neither is asserted to be the current local hero.",
+      "scope": "One verified producer, not all combat-log types or all server execution paths."
+    },
+    "normalRecipientFilter": {
+      "constructionRva": "0x1eb73db",
+      "messageId": 468,
+      "idLoadRva": "0xc1d581",
+      "recordFrameBase": "rbp-0x30",
+      "recipientTeamOffset": "0x344",
+      "selectorRva": "0x1eb74dd",
+      "radiantEventFlagOffset": "0x54",
+      "direEventFlagOffset": "0x55",
+      "falseBranchRva": "0x1eb74f7",
+      "skipTargetRva": "0x1eb7611",
+      "sendCallRva": "0x1eb7609",
+      "scope": "Verified gate in one normal send path; other event/recipient filters also exist."
+    },
+    "counterexample": {
+      "participantAVisible": false,
+      "participantBVisible": true,
+      "eventFlag": true,
+      "participantAVisibilityCannotBeInferredFromEventFlag": true,
+      "evidenceKind": "Logical counterexample to the verified OR rule, not a captured match event."
+    },
+    "codeChecks": [
+      {
+        "rva": "0x1e66253",
+        "bytes": "488d4db0"
+      },
+      {
+        "rva": "0x1e66281",
+        "bytes": "48894580"
+      },
+      {
+        "rva": "0x1e6629b",
+        "bytes": "488945b0"
+      },
+      {
+        "rva": "0x1e66291",
+        "bytes": "4489b5c0000000"
+      },
+      {
+        "rva": "0x1e66735",
+        "bytes": "4d85e47411"
+      },
+      {
+        "rva": "0x1e6673a",
+        "bytes": "ba02000000498bcc"
+      },
+      {
+        "rva": "0x1e66747",
+        "bytes": "84c07511"
+      },
+      {
+        "rva": "0x1e6674b",
+        "bytes": "ba02000000488bce"
+      },
+      {
+        "rva": "0x1e66758",
+        "bytes": "84c0740b"
+      },
+      {
+        "rva": "0x1e6675c",
+        "bytes": "814dc000100000c6450401"
+      },
+      {
+        "rva": "0x1e66767",
+        "bytes": "4d85e47411"
+      },
+      {
+        "rva": "0x1e6676c",
+        "bytes": "ba03000000498bcc"
+      },
+      {
+        "rva": "0x1e66779",
+        "bytes": "84c07511"
+      },
+      {
+        "rva": "0x1e6677d",
+        "bytes": "ba03000000488bce"
+      },
+      {
+        "rva": "0x1e6678a",
+        "bytes": "84c0740b"
+      },
+      {
+        "rva": "0x1e6678e",
+        "bytes": "814dc000200000c6450501"
+      },
+      {
+        "rva": "0x19fffd0",
+        "bytes": "48895c2418564883ec20488b018bf2488bd9"
+      },
+      {
+        "rva": "0x19fffe2",
+        "bytes": "ff9058080000"
+      },
+      {
+        "rva": "0x19ffff9",
+        "bytes": "80bb4905000000"
+      },
+      {
+        "rva": "0x1a00065",
+        "bytes": "ff9060080000"
+      },
+      {
+        "rva": "0x1a000a2",
+        "bytes": "8b83440500008bce488b5c2440d3e723c73bc7"
+      },
+      {
+        "rva": "0x1a000ba",
+        "bytes": "0f94c0"
+      },
+      {
+        "rva": "0x1eb73e2",
+        "bytes": "488945a0"
+      },
+      {
+        "rva": "0x1eb73f0",
+        "bytes": "488945d0"
+      },
+      {
+        "rva": "0x1eb74dd",
+        "bytes": "410fb685440300003c027506807d2400eb083c03750a807d25000f8414010000"
+      },
+      {
+        "rva": "0x1eb75e5",
+        "bytes": "488d45a048c7442430480100004889442428"
+      },
+      {
+        "rva": "0x1eb7609",
+        "bytes": "41ffd6"
+      }
+    ],
+    "callChecks": [
+      {
+        "rva": "0x1e6626e",
+        "target": "0xac4bc0"
+      },
+      {
+        "rva": "0x1e66742",
+        "target": "0x19fffd0"
+      },
+      {
+        "rva": "0x1e66753",
+        "target": "0x19fffd0"
+      },
+      {
+        "rva": "0x1e66774",
+        "target": "0x19fffd0"
+      },
+      {
+        "rva": "0x1e66785",
+        "target": "0x19fffd0"
+      }
+    ],
+    "currentHeroVisibility": "Unknown",
+    "canDriveCurrentOverlay": false
+  },
+  "canDriveCurrentOverlay": false,
+  "unverified": [
+    "delivery to a normal player in an active match",
+    "flag semantics for all other event producers",
+    "mapping event target name to the current local hero generation",
+    "continuous visibility when no combat event arrives",
+    "ward-only transitions"
+  ],
+  "rejectedInference": "Event flag true does not establish visibility of the current local hero."
+}

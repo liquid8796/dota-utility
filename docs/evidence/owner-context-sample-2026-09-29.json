@@ -1,0 +1,26 @@
+﻿{
+    "schemaVersion":  1,
+    "method":  "Bounded Read/Write native-controller/full-handle revalidation",
+    "groundTruthLabelsAvailable":  false,
+    "firstUtc":  "2026-09-29T06:41:16.5961363+00:00",
+    "lastUtc":  "2026-09-29T06:41:29.002991+00:00",
+    "samples":  80,
+    "identity":  {
+                     "networkSlot":  6,
+                     "controllerIndex":  7,
+                     "dotaPlayerId":  2,
+                     "team":  2,
+                     "heroType":  ".?AVC_DOTA_Unit_Hero_Sniper@@"
+                 },
+    "stableSegmentCount":  1,
+    "legacyMaskValues":  [
+                             0
+                         ],
+    "ownTeamDataPresentSamples":  80,
+    "opposingTeamDataPresentSamples":  0,
+    "limitations":  [
+                        "No independently timed enemy-sight labels were recorded.",
+                        "Missing enemy data applies to this session/path; it is not Hidden.",
+                        "Zero legacy masks alone do not prove enemy sight state."
+                    ]
+}

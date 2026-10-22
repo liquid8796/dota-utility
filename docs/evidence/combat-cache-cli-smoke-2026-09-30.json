@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "sourceSha256": "0abc9becebd46352b4c5a49e4843730bd3318e47ddcb00d2816bc23bc6460553",
+  "method": "Released research CLI smoke run; normal inactive state",
+  "observations": [
+    {
+      "kind": "start",
+      "utc": "2026-09-30T07:15:18.9254484+00:00",
+      "version": "1.6.4.0",
+      "processId": 15212,
+      "clientSha256": "88fa24c60a8c68f84d25cc2285019889c05db0c55b2bed1165d6f98fa7c18215",
+      "method": "Read/Write bounded HUD cache observation, not packet capture or enemy-view truth.",
+      "samplesRequested": 8,
+      "intervalMilliseconds": 500,
+      "attachesDebugger": false,
+      "callsGameCode": false,
+      "currentHeroVisibility": "Unknown",
+      "canDriveCurrentOverlay": false
+    },
+    {
+      "kind": "inactive",
+      "utc": "2026-09-30T07:15:18.9598249+00:00",
+      "reason": "No validated active native controller/assigned hero; cache not sampled.",
+      "currentHeroVisibility": "Unknown",
+      "canDriveCurrentOverlay": false
+    },
+    {
+      "kind": "inactive",
+      "utc": "2026-09-30T07:15:19.7672537+00:00",
+      "reason": "No validated active native controller/assigned hero; cache not sampled.",
+      "currentHeroVisibility": "Unknown",
+      "canDriveCurrentOverlay": false
+    },
+    {
+      "kind": "inactive",
+      "utc": "2026-09-30T07:15:20.2731938+00:00",
+      "reason": "No validated active native controller/assigned hero; cache not sampled.",
+      "currentHeroVisibility": "Unknown",
+      "canDriveCurrentOverlay": false
+    },
+    {
+      "kind": "inactive",
+      "utc": "2026-09-30T07:15:20.7814354+00:00",
+      "reason": "No validated active native controller/assigned hero; cache not sampled.",
+      "currentHeroVisibility": "Unknown",
+      "canDriveCurrentOverlay": false
+    },
+    {
+      "kind": "inactive",
+      "utc": "2026-09-30T07:15:21.2925918+00:00",
+      "reason": "No validated active native controller/assigned hero; cache not sampled.",
+      "currentHeroVisibility": "Unknown",
+      "canDriveCurrentOverlay": false
+    },
+    {
+      "kind": "inactive",
+      "utc": "2026-09-30T07:15:21.8041567+00:00",
+      "reason": "No validated active native controller/assigned hero; cache not sampled.",
+      "currentHeroVisibility": "Unknown",
+      "canDriveCurrentOverlay": false
+    },
+    {
+      "kind": "inactive",
+      "utc": "2026-09-30T07:15:22.3124184+00:00",
+      "reason": "No validated active native controller/assigned hero; cache not sampled.",
+      "currentHeroVisibility": "Unknown",
+      "canDriveCurrentOverlay": false
+    },
+    {
+      "kind": "inactive",
+      "utc": "2026-09-30T07:15:22.8207521+00:00",
+      "reason": "No validated active native controller/assigned hero; cache not sampled.",
+      "currentHeroVisibility": "Unknown",
+      "canDriveCurrentOverlay": false
+    },
+    {
+      "kind": "end",
+      "utc": "2026-09-30T07:15:22.8208589+00:00"
+    }
+  ],
+  "currentHeroVisibility": "Unknown",
+  "canDriveCurrentOverlay": false,
+  "limits": [
+    "Eight inactive samples; not a sight transition test",
+    "No stale hero/cache data was used"
+  ]
+}

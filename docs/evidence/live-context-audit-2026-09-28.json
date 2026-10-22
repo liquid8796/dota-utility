@@ -1,0 +1,120 @@
+{
+  "source": ".scratch/ReplicationAudit/recheck.jsonl",
+  "purpose": "Data-availability audit only; not an enemy-sight-labelled trace",
+  "samples": [
+    {
+      "time": "2026-09-28T17:14:08.130338+00:00",
+      "player": 6,
+      "controllers": [
+        {
+          "index": 7,
+          "name": ".?AVC_DOTAPlayerController@@",
+          "id": 6,
+          "handle": "0x01178A79",
+          "actual": "0x01178A79",
+          "serialMatch": true,
+          "heroType": ".?AVC_DOTA_Unit_Hero_Venomancer@@",
+          "team": 2,
+          "originOk": true,
+          "position": [
+            -3395.875,
+            95.25,
+            256
+          ]
+        }
+      ],
+      "teams": [
+        {
+          "team": 2,
+          "handle": "0x009D8F44",
+          "actual": "0x009D8F44",
+          "serialMatch": true,
+          "entityTeam": 2,
+          "type": ".?AVC_DOTA_DataRadiant@@",
+          "backPointerMatches": true
+        },
+        {
+          "team": 3,
+          "handle": "0xFFFFFFFF",
+          "status": "Unavailable"
+        }
+      ]
+    },
+    {
+      "time": "2026-09-28T17:14:08.4129395+00:00",
+      "player": 6,
+      "controllers": [
+        {
+          "index": 7,
+          "name": ".?AVC_DOTAPlayerController@@",
+          "id": 6,
+          "handle": "0x01178A79",
+          "actual": "0x01178A79",
+          "serialMatch": true,
+          "heroType": ".?AVC_DOTA_Unit_Hero_Venomancer@@",
+          "team": 2,
+          "originOk": true,
+          "position": [
+            -3479.3347,
+            132.49176,
+            256
+          ]
+        }
+      ],
+      "teams": [
+        {
+          "team": 2,
+          "handle": "0x009D8F44",
+          "actual": "0x009D8F44",
+          "serialMatch": true,
+          "entityTeam": 2,
+          "type": ".?AVC_DOTA_DataRadiant@@",
+          "backPointerMatches": true
+        },
+        {
+          "team": 3,
+          "handle": "0xFFFFFFFF",
+          "status": "Unavailable"
+        }
+      ]
+    },
+    {
+      "time": "2026-09-28T17:14:08.6764651+00:00",
+      "player": 6,
+      "controllers": [
+        {
+          "index": 7,
+          "name": ".?AVC_DOTAPlayerController@@",
+          "id": 6,
+          "handle": "0x01178A79",
+          "actual": "0x01178A79",
+          "serialMatch": true,
+          "heroType": ".?AVC_DOTA_Unit_Hero_Venomancer@@",
+          "team": 2,
+          "originOk": true,
+          "position": [
+            -3579.8281,
+            107.3639,
+            256
+          ]
+        }
+      ],
+      "teams": [
+        {
+          "team": 2,
+          "handle": "0x009D8F44",
+          "actual": "0x009D8F44",
+          "serialMatch": true,
+          "entityTeam": 2,
+          "type": ".?AVC_DOTA_DataRadiant@@",
+          "backPointerMatches": true
+        },
+        {
+          "team": 3,
+          "handle": "0xFFFFFFFF",
+          "status": "Unavailable"
+        }
+      ]
+    }
+  ]
+}

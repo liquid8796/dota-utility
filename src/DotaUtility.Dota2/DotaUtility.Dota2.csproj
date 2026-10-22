@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\DotaUtility.Domain\DotaUtility.Domain.csproj" />
+    <ProjectReference Include="..\DotaUtility.Application\DotaUtility.Application.csproj" />
+    <ProjectReference Include="..\DotaUtility.Memory\DotaUtility.Memory.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+</Project>

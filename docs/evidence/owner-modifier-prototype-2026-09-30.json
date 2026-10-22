@@ -1,0 +1,809 @@
+{
+  "scope": "Earlier bounded prototype. Native local identity rechecked, but not all per-entry blocks were reread. Not a sight test.",
+  "samples": [
+    {
+      "context": {
+        "utc": "2026-09-30T15:08:06.0850286+00:00",
+        "hero": ".?AVC_DOTA_Unit_Hero_Riki@@",
+        "player": 4,
+        "team": 2,
+        "heroHandle": "010705EC"
+      },
+      "identityStable": true,
+      "properties": {
+        "invis": 1,
+        "state": "0000000000000080",
+        "truesight": 0,
+        "truesightValid": 0,
+        "fow": 0,
+        "fowValid": 0
+      },
+      "modifierCount": 27,
+      "modifiersRef": "44b62b4d389a8b98e4481d226b6d97bf0b2d9da57390fe04cd995da3e3c4ecad"
+    },
+    {
+      "context": {
+        "utc": "2026-09-30T15:08:06.3060069+00:00",
+        "hero": ".?AVC_DOTA_Unit_Hero_Riki@@",
+        "player": 4,
+        "team": 2,
+        "heroHandle": "010705EC"
+      },
+      "identityStable": true,
+      "properties": {
+        "invis": 1,
+        "state": "0000000000000080",
+        "truesight": 0,
+        "truesightValid": 0,
+        "fow": 0,
+        "fowValid": 0
+      },
+      "modifierCount": 27,
+      "modifiersRef": "44b62b4d389a8b98e4481d226b6d97bf0b2d9da57390fe04cd995da3e3c4ecad"
+    },
+    {
+      "context": {
+        "utc": "2026-09-30T15:08:06.4599831+00:00",
+        "hero": ".?AVC_DOTA_Unit_Hero_Riki@@",
+        "player": 4,
+        "team": 2,
+        "heroHandle": "010705EC"
+      },
+      "identityStable": true,
+      "properties": {
+        "invis": 1,
+        "state": "0000000000000080",
+        "truesight": 0,
+        "truesightValid": 0,
+        "fow": 0,
+        "fowValid": 0
+      },
+      "modifierCount": 27,
+      "modifiersRef": "44b62b4d389a8b98e4481d226b6d97bf0b2d9da57390fe04cd995da3e3c4ecad"
+    },
+    {
+      "context": {
+        "utc": "2026-09-30T15:08:06.6154952+00:00",
+        "hero": ".?AVC_DOTA_Unit_Hero_Riki@@",
+        "player": 4,
+        "team": 2,
+        "heroHandle": "010705EC"
+      },
+      "identityStable": true,
+      "properties": {
+        "invis": 1,
+        "state": "0000000000000080",
+        "truesight": 0,
+        "truesightValid": 0,
+        "fow": 0,
+        "fowValid": 0
+      },
+      "modifierCount": 26,
+      "modifiersRef": "8188d70dc5e3fc33ba916490f4ed92a99295524fcbef01747041c0147a9dd863"
+    },
+    {
+      "context": {
+        "utc": "2026-09-30T15:08:06.7696534+00:00",
+        "hero": ".?AVC_DOTA_Unit_Hero_Riki@@",
+        "player": 4,
+        "team": 2,
+        "heroHandle": "010705EC"
+      },
+      "identityStable": true,
+      "properties": {
+        "invis": 1,
+        "state": "0000000000000080",
+        "truesight": 0,
+        "truesightValid": 0,
+        "fow": 0,
+        "fowValid": 0
+      },
+      "modifierCount": 26,
+      "modifiersRef": "8188d70dc5e3fc33ba916490f4ed92a99295524fcbef01747041c0147a9dd863"
+    },
+    {
+      "context": {
+        "utc": "2026-09-30T15:08:06.9242663+00:00",
+        "hero": ".?AVC_DOTA_Unit_Hero_Riki@@",
+        "player": 4,
+        "team": 2,
+        "heroHandle": "010705EC"
+      },
+      "identityStable": true,
+      "properties": {
+        "invis": 1,
+        "state": "0000000000000080",
+        "truesight": 0,
+        "truesightValid": 0,
+        "fow": 0,
+        "fowValid": 0
+      },
+      "modifierCount": 26,
+      "modifiersRef": "8188d70dc5e3fc33ba916490f4ed92a99295524fcbef01747041c0147a9dd863"
+    },
+    {
+      "context": {
+        "utc": "2026-09-30T15:08:07.0787891+00:00",
+        "hero": ".?AVC_DOTA_Unit_Hero_Riki@@",
+        "player": 4,
+        "team": 2,
+        "heroHandle": "010705EC"
+      },
+      "identityStable": true,
+      "properties": {
+        "invis": 1,
+        "state": "0000000000000080",
+        "truesight": 0,
+        "truesightValid": 0,
+        "fow": 0,
+        "fowValid": 0
+      },
+      "modifierCount": 26,
+      "modifiersRef": "8188d70dc5e3fc33ba916490f4ed92a99295524fcbef01747041c0147a9dd863"
+    },
+    {
+      "context": {
+        "utc": "2026-09-30T15:08:07.2322174+00:00",
+        "hero": ".?AVC_DOTA_Unit_Hero_Riki@@",
+        "player": 4,
+        "team": 2,
+        "heroHandle": "010705EC"
+      },
+      "identityStable": true,
+      "properties": {
+        "invis": 1,
+        "state": "0000000000000080",
+        "truesight": 0,
+        "truesightValid": 0,
+        "fow": 0,
+        "fowValid": 0
+      },
+      "modifierCount": 26,
+      "modifiersRef": "8188d70dc5e3fc33ba916490f4ed92a99295524fcbef01747041c0147a9dd863"
+    }
+  ],
+  "canDriveCurrentOverlay": false,
+  "currentHeroVisibility": "Unknown",
+  "modifiersBySha256": {
+    "44b62b4d389a8b98e4481d226b6d97bf0b2d9da57390fe04cd995da3e3c4ecad": [
+      {
+        "buff": 0,
+        "type": ".?AVCDOTA_Modifier_Innate_Riki_Backstab@@",
+        "name": "modifier_innate_riki_backstab",
+        "managerMatches": true,
+        "parent": "010705EC",
+        "caster": "010705EC",
+        "ability": "018185E8",
+        "id": 363,
+        "index": 0,
+        "stack": 0
+      },
+      {
+        "buff": 1,
+        "type": ".?AVCDOTA_Modifier_Lua@@",
+        "name": "modifier_riki_blink_strike_awakening",
+        "managerMatches": true,
+        "parent": "010705EC",
+        "caster": "010705EC",
+        "ability": "016E85EA",
+        "id": 364,
+        "index": 1,
+        "stack": 0
+      },
+      {
+        "buff": 2,
+        "type": ".?AVCDOTA_Modifier_Lua@@",
+        "name": "modifier_riki_tricks_of_the_trade_awakening",
+        "managerMatches": true,
+        "parent": "010705EC",
+        "caster": "010705EC",
+        "ability": "014985E9",
+        "id": 365,
+        "index": 2,
+        "stack": 0
+      },
+      {
+        "buff": 3,
+        "type": ".?AVCDOTA_Modifier_Lua@@",
+        "name": "modifier_riki_backstab_awakening",
+        "managerMatches": true,
+        "parent": "010705EC",
+        "caster": "010705EC",
+        "ability": "004C85E6",
+        "id": 366,
+        "index": 3,
+        "stack": 0
+      },
+      {
+        "buff": 4,
+        "type": ".?AVCDOTA_Modifier_Lua@@",
+        "name": "modifier_awaken",
+        "managerMatches": true,
+        "parent": "010705EC",
+        "caster": "010705EC",
+        "ability": "FFFFFFFF",
+        "id": 367,
+        "index": 4,
+        "stack": 0
+      },
+      {
+        "buff": 5,
+        "type": ".?AVCDOTA_Modifier_Lua@@",
+        "name": "modifier_rune",
+        "managerMatches": true,
+        "parent": "010705EC",
+        "caster": "010705EC",
+        "ability": "FFFFFFFF",
+        "id": 368,
+        "index": 5,
+        "stack": 0
+      },
+      {
+        "buff": 6,
+        "type": ".?AVCDOTA_Modifier_Lua@@",
+        "name": "modifier_achievement",
+        "managerMatches": true,
+        "parent": "010705EC",
+        "caster": "010705EC",
+        "ability": "FFFFFFFF",
+        "id": 369,
+        "index": 6,
+        "stack": 0
+      },
+      {
+        "buff": 7,
+        "type": ".?AVCDOTA_Modifier_Item_MysticStaff@@",
+        "name": "modifier_item_mystic_staff",
+        "managerMatches": true,
+        "parent": "010705EC",
+        "caster": "010705EC",
+        "ability": "01A4813D",
+        "id": 502,
+        "index": 11,
+        "stack": 0
+      },
+      {
+        "buff": 8,
+        "type": ".?AVCDOTA_Modifier_Riki_TricksOfTheTrade@@",
+        "name": "modifier_riki_tricks_of_the_trade",
+        "managerMatches": true,
+        "parent": "010705EC",
+        "caster": "010705EC",
+        "ability": "014985E9",
+        "id": 542,
+        "index": 12,
+        "stack": 0
+      },
+      {
+        "buff": 9,
+        "type": ".?AVCDOTA_Modifier_Item_Battlefury@@",
+        "name": "modifier_item_battlefury",
+        "managerMatches": true,
+        "parent": "010705EC",
+        "caster": "010705EC",
+        "ability": "01E18E27",
+        "id": 3261,
+        "index": 51,
+        "stack": 0
+      },
+      {
+        "buff": 10,
+        "type": ".?AVCDOTA_Modifier_Riki_Backstab@@",
+        "name": "modifier_riki_backstab",
+        "managerMatches": true,
+        "parent": "010705EC",
+        "caster": "010705EC",
+        "ability": "004C85E6",
+        "id": 3565,
+        "index": 59,
+        "stack": 0
+      },
+      {
+        "buff": 11,
+        "type": ".?AVCDOTA_Modifier_Item_CraniumBasher@@",
+        "name": "modifier_item_cranium_basher",
+        "managerMatches": true,
+        "parent": "010705EC",
+        "caster": "010705EC",
+        "ability": "01BE0D6D",
+        "id": 8170,
+        "index": 168,
+        "stack": 0
+      },
+      {
+        "buff": 12,
+        "type": ".?AVCDOTA_Modifier_Item_GreaterCritical@@",
+        "name": "modifier_item_greater_crit",
+        "managerMatches": true,
+        "parent": "010705EC",
+        "caster": "010705EC",
+        "ability": "00EF0BAD",
+        "id": 8953,
+        "index": 185,
+        "stack": 0
+      },
+      {
+        "buff": 13,
+        "type": ".?AVCDOTA_Modifier_Special_Bonus_Attributes@@",
+        "name": "modifier_special_bonus_attributes",
+        "managerMatches": true,
+        "parent": "010705EC",
+        "caster": "010705EC",
+        "ability": "019A85DD",
+        "id": 9966,
+        "index": 193,
+        "stack": 0
+      },
+      {
+        "buff": 14,
+        "type": ".?AVCDOTA_Modifier_Lua@@",
+        "name": "modifier_item_dezun_bloodrite_im",
+        "managerMatches": true,
+        "parent": "010705EC",
+        "caster": "010705EC",
+        "ability": "00E28C7C",
+        "id": 15498,
+        "index": 288,
+        "stack": 0
+      },
+      {
+        "buff": 15,
+        "type": ".?AVCDOTA_Modifier_Lua@@",
+        "name": "modifier_item_trident_im",
+        "managerMatches": true,
+        "parent": "010705EC",
+        "caster": "010705EC",
+        "ability": "00DE8705",
+        "id": 17296,
+        "index": 323,
+        "stack": 0
+      },
+      {
+        "buff": 16,
+        "type": ".?AVCDOTA_Modifier_Nullifier@@",
+        "name": "modifier_item_nullifier",
+        "managerMatches": true,
+        "parent": "010705EC",
+        "caster": "010705EC",
+        "ability": "00E487B1",
+        "id": 17411,
+        "index": 330,
+        "stack": 0
+      },
+      {
+        "buff": 17,
+        "type": ".?AVCDOTA_Modifier_Weaver_TimeLapse@@",
+        "name": "modifier_weaver_timelapse",
+        "managerMatches": true,
+        "parent": "010705EC",
+        "caster": "007D85A4",
+        "ability": "0132059E",
+        "id": 21654,
+        "index": 446,
+        "stack": 0
+      },
+      {
+        "buff": 18,
+        "type": ".?AVCDOTA_Modifier_Lua@@",
+        "name": "modifier_zhenshibaoshi_xianshi",
+        "managerMatches": true,
+        "parent": "010705EC",
+        "caster": "010705EC",
+        "ability": "01AC0DF8",
+        "id": 23392,
+        "index": 515,
+        "stack": 0
+      },
+      {
+        "buff": 19,
+        "type": ".?AVCDOTA_Modifier_Item_GemOfTrueSight@@",
+        "name": "modifier_item_gem_of_true_sight",
+        "managerMatches": true,
+        "parent": "010705EC",
+        "caster": "010705EC",
+        "ability": "01AC0DF8",
+        "id": 23393,
+        "index": 516,
+        "stack": 0
+      },
+      {
+        "buff": 20,
+        "type": ".?AVCDOTA_Modifier_Item_Desolator@@",
+        "name": "modifier_item_desolator",
+        "managerMatches": true,
+        "parent": "010705EC",
+        "caster": "010705EC",
+        "ability": "00ED8A24",
+        "id": 23563,
+        "index": 521,
+        "stack": 0
+      },
+      {
+        "buff": 21,
+        "type": ".?AVCDOTA_Modifier_Item_UltimateScepter_Consumed@@",
+        "name": "modifier_item_ultimate_scepter_consumed",
+        "managerMatches": true,
+        "parent": "010705EC",
+        "caster": "010705EC",
+        "ability": "FFFFFFFF",
+        "id": 24371,
+        "index": 580,
+        "stack": 0
+      },
+      {
+        "buff": 22,
+        "type": ".?AVCDOTA_Modifier_Item_BootsOfTravel@@",
+        "name": "modifier_item_boots_of_travel",
+        "managerMatches": true,
+        "parent": "010705EC",
+        "caster": "010705EC",
+        "ability": "00500449",
+        "id": 24852,
+        "index": 582,
+        "stack": 0
+      },
+      {
+        "buff": 23,
+        "type": ".?AVCDOTA_Modifier_Teleporting@@",
+        "name": "modifier_teleporting",
+        "managerMatches": true,
+        "parent": "010705EC",
+        "caster": "010705EC",
+        "ability": "002F05D8",
+        "id": 25104,
+        "index": 583,
+        "stack": 0
+      },
+      {
+        "buff": 24,
+        "type": ".?AVCDOTA_Modifier_Teleporting_Root_Logic@@",
+        "name": "modifier_teleporting_root_logic",
+        "managerMatches": true,
+        "parent": "010705EC",
+        "caster": "010705EC",
+        "ability": "002F05D8",
+        "id": 25105,
+        "index": 584,
+        "stack": 0
+      },
+      {
+        "buff": 25,
+        "type": ".?AVCDOTA_Modifier_Invisible@@",
+        "name": "modifier_invisible",
+        "managerMatches": true,
+        "parent": "010705EC",
+        "caster": "010705EC",
+        "ability": "004C85E6",
+        "id": 25107,
+        "index": 585,
+        "stack": 0
+      },
+      {
+        "buff": 26,
+        "type": ".?AVCDOTA_Modifier_Item_Radiance_Debuff@@",
+        "name": "modifier_item_radiance_debuff",
+        "managerMatches": true,
+        "parent": "010705EC",
+        "caster": "00B48089",
+        "ability": "FFFFFFFF",
+        "id": 25142,
+        "index": 586,
+        "stack": 0
+      }
+    ],
+    "8188d70dc5e3fc33ba916490f4ed92a99295524fcbef01747041c0147a9dd863": [
+      {
+        "buff": 0,
+        "type": ".?AVCDOTA_Modifier_Innate_Riki_Backstab@@",
+        "name": "modifier_innate_riki_backstab",
+        "managerMatches": true,
+        "parent": "010705EC",
+        "caster": "010705EC",
+        "ability": "018185E8",
+        "id": 363,
+        "index": 0,
+        "stack": 0
+      },
+      {
+        "buff": 1,
+        "type": ".?AVCDOTA_Modifier_Lua@@",
+        "name": "modifier_riki_blink_strike_awakening",
+        "managerMatches": true,
+        "parent": "010705EC",
+        "caster": "010705EC",
+        "ability": "016E85EA",
+        "id": 364,
+        "index": 1,
+        "stack": 0
+      },
+      {
+        "buff": 2,
+        "type": ".?AVCDOTA_Modifier_Lua@@",
+        "name": "modifier_riki_tricks_of_the_trade_awakening",
+        "managerMatches": true,
+        "parent": "010705EC",
+        "caster": "010705EC",
+        "ability": "014985E9",
+        "id": 365,
+        "index": 2,
+        "stack": 0
+      },
+      {
+        "buff": 3,
+        "type": ".?AVCDOTA_Modifier_Lua@@",
+        "name": "modifier_riki_backstab_awakening",
+        "managerMatches": true,
+        "parent": "010705EC",
+        "caster": "010705EC",
+        "ability": "004C85E6",
+        "id": 366,
+        "index": 3,
+        "stack": 0
+      },
+      {
+        "buff": 4,
+        "type": ".?AVCDOTA_Modifier_Lua@@",
+        "name": "modifier_awaken",
+        "managerMatches": true,
+        "parent": "010705EC",
+        "caster": "010705EC",
+        "ability": "FFFFFFFF",
+        "id": 367,
+        "index": 4,
+        "stack": 0
+      },
+      {
+        "buff": 5,
+        "type": ".?AVCDOTA_Modifier_Lua@@",
+        "name": "modifier_rune",
+        "managerMatches": true,
+        "parent": "010705EC",
+        "caster": "010705EC",
+        "ability": "FFFFFFFF",
+        "id": 368,
+        "index": 5,
+        "stack": 0
+      },
+      {
+        "buff": 6,
+        "type": ".?AVCDOTA_Modifier_Lua@@",
+        "name": "modifier_achievement",
+        "managerMatches": true,
+        "parent": "010705EC",
+        "caster": "010705EC",
+        "ability": "FFFFFFFF",
+        "id": 369,
+        "index": 6,
+        "stack": 0
+      },
+      {
+        "buff": 7,
+        "type": ".?AVCDOTA_Modifier_Item_MysticStaff@@",
+        "name": "modifier_item_mystic_staff",
+        "managerMatches": true,
+        "parent": "010705EC",
+        "caster": "010705EC",
+        "ability": "01A4813D",
+        "id": 502,
+        "index": 11,
+        "stack": 0
+      },
+      {
+        "buff": 8,
+        "type": ".?AVCDOTA_Modifier_Riki_TricksOfTheTrade@@",
+        "name": "modifier_riki_tricks_of_the_trade",
+        "managerMatches": true,
+        "parent": "010705EC",
+        "caster": "010705EC",
+        "ability": "014985E9",
+        "id": 542,
+        "index": 12,
+        "stack": 0
+      },
+      {
+        "buff": 9,
+        "type": ".?AVCDOTA_Modifier_Item_Battlefury@@",
+        "name": "modifier_item_battlefury",
+        "managerMatches": true,
+        "parent": "010705EC",
+        "caster": "010705EC",
+        "ability": "01E18E27",
+        "id": 3261,
+        "index": 51,
+        "stack": 0
+      },
+      {
+        "buff": 10,
+        "type": ".?AVCDOTA_Modifier_Riki_Backstab@@",
+        "name": "modifier_riki_backstab",
+        "managerMatches": true,
+        "parent": "010705EC",
+        "caster": "010705EC",
+        "ability": "004C85E6",
+        "id": 3565,
+        "index": 59,
+        "stack": 0
+      },
+      {
+        "buff": 11,
+        "type": ".?AVCDOTA_Modifier_Item_CraniumBasher@@",
+        "name": "modifier_item_cranium_basher",
+        "managerMatches": true,
+        "parent": "010705EC",
+        "caster": "010705EC",
+        "ability": "01BE0D6D",
+        "id": 8170,
+        "index": 168,
+        "stack": 0
+      },
+      {
+        "buff": 12,
+        "type": ".?AVCDOTA_Modifier_Item_GreaterCritical@@",
+        "name": "modifier_item_greater_crit",
+        "managerMatches": true,
+        "parent": "010705EC",
+        "caster": "010705EC",
+        "ability": "00EF0BAD",
+        "id": 8953,
+        "index": 185,
+        "stack": 0
+      },
+      {
+        "buff": 13,
+        "type": ".?AVCDOTA_Modifier_Special_Bonus_Attributes@@",
+        "name": "modifier_special_bonus_attributes",
+        "managerMatches": true,
+        "parent": "010705EC",
+        "caster": "010705EC",
+        "ability": "019A85DD",
+        "id": 9966,
+        "index": 193,
+        "stack": 0
+      },
+      {
+        "buff": 14,
+        "type": ".?AVCDOTA_Modifier_Lua@@",
+        "name": "modifier_item_dezun_bloodrite_im",
+        "managerMatches": true,
+        "parent": "010705EC",
+        "caster": "010705EC",
+        "ability": "00E28C7C",
+        "id": 15498,
+        "index": 288,
+        "stack": 0
+      },
+      {
+        "buff": 15,
+        "type": ".?AVCDOTA_Modifier_Lua@@",
+        "name": "modifier_item_trident_im",
+        "managerMatches": true,
+        "parent": "010705EC",
+        "caster": "010705EC",
+        "ability": "00DE8705",
+        "id": 17296,
+        "index": 323,
+        "stack": 0
+      },
+      {
+        "buff": 16,
+        "type": ".?AVCDOTA_Modifier_Nullifier@@",
+        "name": "modifier_item_nullifier",
+        "managerMatches": true,
+        "parent": "010705EC",
+        "caster": "010705EC",
+        "ability": "00E487B1",
+        "id": 17411,
+        "index": 330,
+        "stack": 0
+      },
+      {
+        "buff": 17,
+        "type": ".?AVCDOTA_Modifier_Weaver_TimeLapse@@",
+        "name": "modifier_weaver_timelapse",
+        "managerMatches": true,
+        "parent": "010705EC",
+        "caster": "007D85A4",
+        "ability": "0132059E",
+        "id": 21654,
+        "index": 446,
+        "stack": 0
+      },
+      {
+        "buff": 18,
+        "type": ".?AVCDOTA_Modifier_Lua@@",
+        "name": "modifier_zhenshibaoshi_xianshi",
+        "managerMatches": true,
+        "parent": "010705EC",
+        "caster": "010705EC",
+        "ability": "01AC0DF8",
+        "id": 23392,
+        "index": 515,
+        "stack": 0
+      },
+      {
+        "buff": 19,
+        "type": ".?AVCDOTA_Modifier_Item_GemOfTrueSight@@",
+        "name": "modifier_item_gem_of_true_sight",
+        "managerMatches": true,
+        "parent": "010705EC",
+        "caster": "010705EC",
+        "ability": "01AC0DF8",
+        "id": 23393,
+        "index": 516,
+        "stack": 0
+      },
+      {
+        "buff": 20,
+        "type": ".?AVCDOTA_Modifier_Item_Desolator@@",
+        "name": "modifier_item_desolator",
+        "managerMatches": true,
+        "parent": "010705EC",
+        "caster": "010705EC",
+        "ability": "00ED8A24",
+        "id": 23563,
+        "index": 521,
+        "stack": 0
+      },
+      {
+        "buff": 21,
+        "type": ".?AVCDOTA_Modifier_Item_UltimateScepter_Consumed@@",
+        "name": "modifier_item_ultimate_scepter_consumed",
+        "managerMatches": true,
+        "parent": "010705EC",
+        "caster": "010705EC",
+        "ability": "FFFFFFFF",
+        "id": 24371,
+        "index": 580,
+        "stack": 0
+      },
+      {
+        "buff": 22,
+        "type": ".?AVCDOTA_Modifier_Item_BootsOfTravel@@",
+        "name": "modifier_item_boots_of_travel",
+        "managerMatches": true,
+        "parent": "010705EC",
+        "caster": "010705EC",
+        "ability": "00500449",
+        "id": 24852,
+        "index": 582,
+        "stack": 0
+      },
+      {
+        "buff": 23,
+        "type": ".?AVCDOTA_Modifier_Teleporting@@",
+        "name": "modifier_teleporting",
+        "managerMatches": true,
+        "parent": "010705EC",
+        "caster": "010705EC",
+        "ability": "002F05D8",
+        "id": 25104,
+        "index": 583,
+        "stack": 0
+      },
+      {
+        "buff": 24,
+        "type": ".?AVCDOTA_Modifier_Teleporting_Root_Logic@@",
+        "name": "modifier_teleporting_root_logic",
+        "managerMatches": true,
+        "parent": "010705EC",
+        "caster": "010705EC",
+        "ability": "002F05D8",
+        "id": 25105,
+        "index": 584,
+        "stack": 0
+      },
+      {
+        "buff": 25,
+        "type": ".?AVCDOTA_Modifier_Invisible@@",
+        "name": "modifier_invisible",
+        "managerMatches": true,
+        "parent": "010705EC",
+        "caster": "010705EC",
+        "ability": "004C85E6",
+        "id": 25107,
+        "index": 585,
+        "stack": 0
+      }
+    ]
+  }
+}

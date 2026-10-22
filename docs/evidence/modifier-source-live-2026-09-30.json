@@ -1,0 +1,1033 @@
+{
+  "schemaVersion": 1,
+  "scope": "Read/Write owner/source observations; no enemy-view labels or packet capture.",
+  "phases": [
+    {
+      "name": "baseline",
+      "counts": {
+        "start": 1,
+        "modifier_sample": 8,
+        "end": 1
+      },
+      "contexts": [
+        {
+          "playerId": 6,
+          "team": 2,
+          "networkSlot": 7,
+          "heroHandle": "019E05D4"
+        }
+      ],
+      "start": "2026-09-30T15:41:46.3316884+00:00",
+      "end": "2026-09-30T15:41:48.1120904+00:00",
+      "independentEnemySightLabels": false,
+      "firstAcceptedSample": {
+        "kind": "modifier_sample",
+        "utc": "2026-09-30T15:41:46.6648582+00:00",
+        "segment": 1,
+        "playerId": 6,
+        "team": 2,
+        "networkSlot": 7,
+        "controllerIndex": 8,
+        "heroHandle": "019E05D4",
+        "reason": "Observed local modifiers only; neither their names nor property caches establish enemy sight.",
+        "snapshot": {
+          "arrayCount": 21,
+          "nullEntries": 0,
+          "modifiers": [
+            {
+              "name": "modifier_mirana_celestial_quiver",
+              "nativeType": ".?AVCDOTA_Modifier_Mirana_CelestialQuiver@@",
+              "nativeInstanceToken": 403,
+              "nativeListIndex": 0,
+              "parentHandle": 27133396,
+              "casterHandle": 27133396,
+              "abilityHandle": 25069016,
+              "pendingRemoval": false
+            },
+            {
+              "name": "modifier_mirana_starfall_awakening",
+              "nativeType": ".?AVCDOTA_Modifier_Lua@@",
+              "nativeInstanceToken": 404,
+              "nativeListIndex": 1,
+              "parentHandle": 27133396,
+              "casterHandle": 27133396,
+              "abilityHandle": 29623765,
+              "pendingRemoval": false
+            },
+            {
+              "name": "modifier_mirana_arrow_awakening",
+              "nativeType": ".?AVCDOTA_Modifier_Lua@@",
+              "nativeInstanceToken": 405,
+              "nativeListIndex": 2,
+              "parentHandle": 27133396,
+              "casterHandle": 27133396,
+              "abilityHandle": 11437526,
+              "pendingRemoval": false
+            },
+            {
+              "name": "modifier_awaken",
+              "nativeType": ".?AVCDOTA_Modifier_Lua@@",
+              "nativeInstanceToken": 406,
+              "nativeListIndex": 3,
+              "parentHandle": 27133396,
+              "casterHandle": 27133396,
+              "abilityHandle": 4294967295,
+              "pendingRemoval": false
+            },
+            {
+              "name": "modifier_rune",
+              "nativeType": ".?AVCDOTA_Modifier_Lua@@",
+              "nativeInstanceToken": 407,
+              "nativeListIndex": 4,
+              "parentHandle": 27133396,
+              "casterHandle": 27133396,
+              "abilityHandle": 4294967295,
+              "pendingRemoval": false
+            },
+            {
+              "name": "modifier_achievement",
+              "nativeType": ".?AVCDOTA_Modifier_Lua@@",
+              "nativeInstanceToken": 408,
+              "nativeListIndex": 5,
+              "parentHandle": 27133396,
+              "casterHandle": 27133396,
+              "abilityHandle": 4294967295,
+              "pendingRemoval": false
+            },
+            {
+              "name": "modifier_item_chainmail",
+              "nativeType": ".?AVCDOTA_Modifier_Item_ChainMail@@",
+              "nativeInstanceToken": 608,
+              "nativeListIndex": 12,
+              "parentHandle": 27133396,
+              "casterHandle": 27133396,
+              "abilityHandle": 5932689,
+              "pendingRemoval": false
+            },
+            {
+              "name": "modifier_item_yasha_and_kaya",
+              "nativeType": ".?AVCDOTA_Modifier_Item_Yasha_And_Kaya@@",
+              "nativeInstanceToken": 5542,
+              "nativeListIndex": 51,
+              "parentHandle": 27133396,
+              "casterHandle": 27133396,
+              "abilityHandle": 1870816,
+              "pendingRemoval": false
+            },
+            {
+              "name": "modifier_item_vampire_fangs_im",
+              "nativeType": ".?AVCDOTA_Modifier_Lua@@",
+              "nativeInstanceToken": 10041,
+              "nativeListIndex": 104,
+              "parentHandle": 27133396,
+              "casterHandle": 27133396,
+              "abilityHandle": 2459821,
+              "pendingRemoval": false
+            },
+            {
+              "name": "modifier_special_bonus_attributes",
+              "nativeType": ".?AVCDOTA_Modifier_Special_Bonus_Attributes@@",
+              "nativeInstanceToken": 10349,
+              "nativeListIndex": 116,
+              "parentHandle": 27133396,
+              "casterHandle": 27133396,
+              "abilityHandle": 31720931,
+              "pendingRemoval": false
+            },
+            {
+              "name": "modifier_item_octarine_core",
+              "nativeType": ".?AVCDOTA_Modifier_Item_Octarine_Core@@",
+              "nativeInstanceToken": 10519,
+              "nativeListIndex": 118,
+              "parentHandle": 27133396,
+              "casterHandle": 27133396,
+              "abilityHandle": 18680248,
+              "pendingRemoval": false
+            },
+            {
+              "name": "modifier_item_boots_of_travel_2",
+              "nativeType": ".?AVCDOTA_Modifier_Item_BootsOfTravel_2@@",
+              "nativeInstanceToken": 14361,
+              "nativeListIndex": 224,
+              "parentHandle": 27133396,
+              "casterHandle": 27133396,
+              "abilityHandle": 16353702,
+              "pendingRemoval": false
+            },
+            {
+              "name": "modifier_item_aghanims_shard",
+              "nativeType": ".?AVCDOTA_Modifier_Aghanims_Shard@@",
+              "nativeInstanceToken": 14409,
+              "nativeListIndex": 226,
+              "parentHandle": 27133396,
+              "casterHandle": 27133396,
+              "abilityHandle": 4294967295,
+              "pendingRemoval": false
+            },
+            {
+              "name": "modifier_item_quickening_charm_im",
+              "nativeType": ".?AVCDOTA_Modifier_Lua@@",
+              "nativeInstanceToken": 14727,
+              "nativeListIndex": 231,
+              "parentHandle": 27133396,
+              "casterHandle": 27133396,
+              "abilityHandle": 2559165,
+              "pendingRemoval": false
+            },
+            {
+              "name": "modifier_item_lesser_crit",
+              "nativeType": ".?AVCDOTA_Modifier_Item_LesserCritical@@",
+              "nativeInstanceToken": 18018,
+              "nativeListIndex": 273,
+              "parentHandle": 27133396,
+              "casterHandle": 27133396,
+              "abilityHandle": 5639270,
+              "pendingRemoval": false
+            },
+            {
+              "name": "modifier_item_dandelion_amulet_im",
+              "nativeType": ".?AVCDOTA_Modifier_Lua@@",
+              "nativeInstanceToken": 18046,
+              "nativeListIndex": 277,
+              "parentHandle": 27133396,
+              "casterHandle": 27133396,
+              "abilityHandle": 9604407,
+              "pendingRemoval": false
+            },
+            {
+              "name": "modifier_item_ultimate_scepter_consumed",
+              "nativeType": ".?AVCDOTA_Modifier_Item_UltimateScepter_Consumed@@",
+              "nativeInstanceToken": 18364,
+              "nativeListIndex": 283,
+              "parentHandle": 27133396,
+              "casterHandle": 27133396,
+              "abilityHandle": 4294967295,
+              "pendingRemoval": false
+            },
+            {
+              "name": "modifier_item_wind_waker",
+              "nativeType": ".?AVCDOTA_Modifier_Item_Wind_Waker@@",
+              "nativeInstanceToken": 20153,
+              "nativeListIndex": 307,
+              "parentHandle": 27133396,
+              "casterHandle": 27133396,
+              "abilityHandle": 8588592,
+              "pendingRemoval": false
+            },
+            {
+              "name": "modifier_zhenshibaoshi_xianshi",
+              "nativeType": ".?AVCDOTA_Modifier_Lua@@",
+              "nativeInstanceToken": 20717,
+              "nativeListIndex": 323,
+              "parentHandle": 27133396,
+              "casterHandle": 27133396,
+              "abilityHandle": 10750202,
+              "pendingRemoval": false
+            },
+            {
+              "name": "modifier_item_gem_of_true_sight",
+              "nativeType": ".?AVCDOTA_Modifier_Item_GemOfTrueSight@@",
+              "nativeInstanceToken": 20718,
+              "nativeListIndex": 324,
+              "parentHandle": 27133396,
+              "casterHandle": 27133396,
+              "abilityHandle": 10750202,
+              "pendingRemoval": false
+            },
+            {
+              "name": "modifier_tower_aura_bonus",
+              "nativeType": ".?AVCDOTA_Modifier_Tower_Aura_Bonus@@",
+              "nativeInstanceToken": 21452,
+              "nativeListIndex": 340,
+              "parentHandle": 27133396,
+              "casterHandle": 22708816,
+              "abilityHandle": 4294967295,
+              "pendingRemoval": false
+            }
+          ],
+          "teamCache": {
+            "trueSightMask": 0,
+            "trueSightValidMask": 0,
+            "fowPositionMask": 0,
+            "fowPositionValidMask": 0
+          },
+          "invisibilityLevel": 0,
+          "unitStateBits": "0000000000000000",
+          "currentHeroVisibility": "Unknown",
+          "canDriveCurrentOverlay": false
+        },
+        "currentHeroVisibility": "Unknown",
+        "canDriveCurrentOverlay": false
+      }
+    },
+    {
+      "name": "owner-window",
+      "counts": {
+        "start": 1,
+        "modifier_sample": 150,
+        "end": 1
+      },
+      "contexts": [
+        {
+          "playerId": 6,
+          "team": 2,
+          "networkSlot": 7,
+          "heroHandle": "019E05D4"
+        }
+      ],
+      "start": "2026-09-30T15:45:21.4977204+00:00",
+      "end": "2026-09-30T15:45:52.3062155+00:00",
+      "independentEnemySightLabels": false,
+      "firstAcceptedSample": {
+        "kind": "modifier_sample",
+        "utc": "2026-09-30T15:45:21.8159447+00:00",
+        "segment": 1,
+        "playerId": 6,
+        "team": 2,
+        "networkSlot": 7,
+        "controllerIndex": 8,
+        "heroHandle": "019E05D4",
+        "reason": "Observed local modifiers only; neither their names nor property caches establish enemy sight.",
+        "snapshot": {
+          "arrayCount": 27,
+          "nullEntries": 0,
+          "modifiers": [
+            {
+              "name": "modifier_mirana_celestial_quiver",
+              "nativeType": ".?AVCDOTA_Modifier_Mirana_CelestialQuiver@@",
+              "nativeInstanceToken": 403,
+              "nativeListIndex": 0,
+              "parentHandle": 27133396,
+              "casterHandle": 27133396,
+              "abilityHandle": 25069016,
+              "pendingRemoval": false
+            },
+            {
+              "name": "modifier_mirana_starfall_awakening",
+              "nativeType": ".?AVCDOTA_Modifier_Lua@@",
+              "nativeInstanceToken": 404,
+              "nativeListIndex": 1,
+              "parentHandle": 27133396,
+              "casterHandle": 27133396,
+              "abilityHandle": 29623765,
+              "pendingRemoval": false
+            },
+            {
+              "name": "modifier_mirana_arrow_awakening",
+              "nativeType": ".?AVCDOTA_Modifier_Lua@@",
+              "nativeInstanceToken": 405,
+              "nativeListIndex": 2,
+              "parentHandle": 27133396,
+              "casterHandle": 27133396,
+              "abilityHandle": 11437526,
+              "pendingRemoval": false
+            },
+            {
+              "name": "modifier_awaken",
+              "nativeType": ".?AVCDOTA_Modifier_Lua@@",
+              "nativeInstanceToken": 406,
+              "nativeListIndex": 3,
+              "parentHandle": 27133396,
+              "casterHandle": 27133396,
+              "abilityHandle": 4294967295,
+              "pendingRemoval": false
+            },
+            {
+              "name": "modifier_rune",
+              "nativeType": ".?AVCDOTA_Modifier_Lua@@",
+              "nativeInstanceToken": 407,
+              "nativeListIndex": 4,
+              "parentHandle": 27133396,
+              "casterHandle": 27133396,
+              "abilityHandle": 4294967295,
+              "pendingRemoval": false
+            },
+            {
+              "name": "modifier_achievement",
+              "nativeType": ".?AVCDOTA_Modifier_Lua@@",
+              "nativeInstanceToken": 408,
+              "nativeListIndex": 5,
+              "parentHandle": 27133396,
+              "casterHandle": 27133396,
+              "abilityHandle": 4294967295,
+              "pendingRemoval": false
+            },
+            {
+              "name": "modifier_item_chainmail",
+              "nativeType": ".?AVCDOTA_Modifier_Item_ChainMail@@",
+              "nativeInstanceToken": 608,
+              "nativeListIndex": 12,
+              "parentHandle": 27133396,
+              "casterHandle": 27133396,
+              "abilityHandle": 5932689,
+              "pendingRemoval": false
+            },
+            {
+              "name": "modifier_item_yasha_and_kaya",
+              "nativeType": ".?AVCDOTA_Modifier_Item_Yasha_And_Kaya@@",
+              "nativeInstanceToken": 5542,
+              "nativeListIndex": 51,
+              "parentHandle": 27133396,
+              "casterHandle": 27133396,
+              "abilityHandle": 1870816,
+              "pendingRemoval": false
+            },
+            {
+              "name": "modifier_item_vampire_fangs_im",
+              "nativeType": ".?AVCDOTA_Modifier_Lua@@",
+              "nativeInstanceToken": 10041,
+              "nativeListIndex": 104,
+              "parentHandle": 27133396,
+              "casterHandle": 27133396,
+              "abilityHandle": 2459821,
+              "pendingRemoval": false
+            },
+            {
+              "name": "modifier_special_bonus_attributes",
+              "nativeType": ".?AVCDOTA_Modifier_Special_Bonus_Attributes@@",
+              "nativeInstanceToken": 10349,
+              "nativeListIndex": 116,
+              "parentHandle": 27133396,
+              "casterHandle": 27133396,
+              "abilityHandle": 31720931,
+              "pendingRemoval": false
+            },
+            {
+              "name": "modifier_item_octarine_core",
+              "nativeType": ".?AVCDOTA_Modifier_Item_Octarine_Core@@",
+              "nativeInstanceToken": 10519,
+              "nativeListIndex": 118,
+              "parentHandle": 27133396,
+              "casterHandle": 27133396,
+              "abilityHandle": 18680248,
+              "pendingRemoval": false
+            },
+            {
+              "name": "modifier_item_boots_of_travel_2",
+              "nativeType": ".?AVCDOTA_Modifier_Item_BootsOfTravel_2@@",
+              "nativeInstanceToken": 14361,
+              "nativeListIndex": 224,
+              "parentHandle": 27133396,
+              "casterHandle": 27133396,
+              "abilityHandle": 16353702,
+              "pendingRemoval": false
+            },
+            {
+              "name": "modifier_item_aghanims_shard",
+              "nativeType": ".?AVCDOTA_Modifier_Aghanims_Shard@@",
+              "nativeInstanceToken": 14409,
+              "nativeListIndex": 226,
+              "parentHandle": 27133396,
+              "casterHandle": 27133396,
+              "abilityHandle": 4294967295,
+              "pendingRemoval": false
+            },
+            {
+              "name": "modifier_item_quickening_charm_im",
+              "nativeType": ".?AVCDOTA_Modifier_Lua@@",
+              "nativeInstanceToken": 14727,
+              "nativeListIndex": 231,
+              "parentHandle": 27133396,
+              "casterHandle": 27133396,
+              "abilityHandle": 2559165,
+              "pendingRemoval": false
+            },
+            {
+              "name": "modifier_item_lesser_crit",
+              "nativeType": ".?AVCDOTA_Modifier_Item_LesserCritical@@",
+              "nativeInstanceToken": 18018,
+              "nativeListIndex": 273,
+              "parentHandle": 27133396,
+              "casterHandle": 27133396,
+              "abilityHandle": 5639270,
+              "pendingRemoval": false
+            },
+            {
+              "name": "modifier_item_dandelion_amulet_im",
+              "nativeType": ".?AVCDOTA_Modifier_Lua@@",
+              "nativeInstanceToken": 18046,
+              "nativeListIndex": 277,
+              "parentHandle": 27133396,
+              "casterHandle": 27133396,
+              "abilityHandle": 9604407,
+              "pendingRemoval": false
+            },
+            {
+              "name": "modifier_item_ultimate_scepter_consumed",
+              "nativeType": ".?AVCDOTA_Modifier_Item_UltimateScepter_Consumed@@",
+              "nativeInstanceToken": 18364,
+              "nativeListIndex": 283,
+              "parentHandle": 27133396,
+              "casterHandle": 27133396,
+              "abilityHandle": 4294967295,
+              "pendingRemoval": false
+            },
+            {
+              "name": "modifier_item_wind_waker",
+              "nativeType": ".?AVCDOTA_Modifier_Item_Wind_Waker@@",
+              "nativeInstanceToken": 20153,
+              "nativeListIndex": 307,
+              "parentHandle": 27133396,
+              "casterHandle": 27133396,
+              "abilityHandle": 8588592,
+              "pendingRemoval": false
+            },
+            {
+              "name": "modifier_zhenshibaoshi_xianshi",
+              "nativeType": ".?AVCDOTA_Modifier_Lua@@",
+              "nativeInstanceToken": 20717,
+              "nativeListIndex": 323,
+              "parentHandle": 27133396,
+              "casterHandle": 27133396,
+              "abilityHandle": 10750202,
+              "pendingRemoval": false
+            },
+            {
+              "name": "modifier_item_gem_of_true_sight",
+              "nativeType": ".?AVCDOTA_Modifier_Item_GemOfTrueSight@@",
+              "nativeInstanceToken": 20718,
+              "nativeListIndex": 324,
+              "parentHandle": 27133396,
+              "casterHandle": 27133396,
+              "abilityHandle": 10750202,
+              "pendingRemoval": false
+            },
+            {
+              "name": "modifier_mirana_moonlight_shadow",
+              "nativeType": ".?AVCDOTA_Modifier_Mirana_MoonlightShadow@@",
+              "nativeInstanceToken": 25967,
+              "nativeListIndex": 392,
+              "parentHandle": 27133396,
+              "casterHandle": 27133396,
+              "abilityHandle": 18974170,
+              "pendingRemoval": false
+            },
+            {
+              "name": "modifier_mirana_moonlight_shadow_killtracker",
+              "nativeType": ".?AVCDOTA_Modifier_Mirana_MoonlightShadow_KillTracker@@",
+              "nativeInstanceToken": 25968,
+              "nativeListIndex": 393,
+              "parentHandle": 27133396,
+              "casterHandle": 27133396,
+              "abilityHandle": 18974170,
+              "pendingRemoval": false
+            },
+            {
+              "name": "modifier_item_divine_rapier",
+              "nativeType": ".?AVCDOTA_Modifier_Item_DivineRapier@@",
+              "nativeInstanceToken": 26076,
+              "nativeListIndex": 395,
+              "parentHandle": 27133396,
+              "casterHandle": 27133396,
+              "abilityHandle": 23268510,
+              "pendingRemoval": false
+            },
+            {
+              "name": "modifier_invisible",
+              "nativeType": ".?AVCDOTA_Modifier_Invisible@@",
+              "nativeInstanceToken": 26167,
+              "nativeListIndex": 397,
+              "parentHandle": 27133396,
+              "casterHandle": 27133396,
+              "abilityHandle": 18974170,
+              "pendingRemoval": false
+            },
+            {
+              "name": "modifier_item_pipe_aura",
+              "nativeType": ".?AVCDOTA_Modifier_Item_Pipe_Aura@@",
+              "nativeInstanceToken": 26173,
+              "nativeListIndex": 398,
+              "parentHandle": 27133396,
+              "casterHandle": 29394858,
+              "abilityHandle": 5016129,
+              "pendingRemoval": false
+            },
+            {
+              "name": "modifier_item_ancient_janggo_aura",
+              "nativeType": ".?AVCDOTA_Modifier_Item_Ancient_Janggo_Aura@@",
+              "nativeInstanceToken": 26174,
+              "nativeListIndex": 399,
+              "parentHandle": 27133396,
+              "casterHandle": 29394858,
+              "abilityHandle": 26380204,
+              "pendingRemoval": false
+            },
+            {
+              "name": "modifier_fountain_aura_buff",
+              "nativeType": ".?AVCDOTA_Modifier_FountainAuraBuff@@",
+              "nativeInstanceToken": 26175,
+              "nativeListIndex": 400,
+              "parentHandle": 27133396,
+              "casterHandle": 23692203,
+              "abilityHandle": 4294967295,
+              "pendingRemoval": false
+            }
+          ],
+          "teamCache": {
+            "trueSightMask": 0,
+            "trueSightValidMask": 0,
+            "fowPositionMask": 0,
+            "fowPositionValidMask": 0
+          },
+          "invisibilityLevel": 1,
+          "unitStateBits": "0000000000000080",
+          "currentHeroVisibility": "Unknown",
+          "canDriveCurrentOverlay": false
+        },
+        "currentHeroVisibility": "Unknown",
+        "canDriveCurrentOverlay": false
+      }
+    },
+    {
+      "name": "sources-smoke",
+      "counts": {
+        "start": 1,
+        "modifier_sample": 20,
+        "end": 1
+      },
+      "contexts": [
+        {
+          "playerId": 9,
+          "team": 2,
+          "networkSlot": 4,
+          "heroHandle": "004F8328"
+        }
+      ],
+      "start": "2026-09-30T16:06:37.4507773+00:00",
+      "end": "2026-09-30T16:06:41.7617389+00:00",
+      "independentEnemySightLabels": false,
+      "firstAcceptedSample": {
+        "kind": "modifier_sample",
+        "utc": "2026-09-30T16:06:37.8093679+00:00",
+        "segment": 1,
+        "playerId": 9,
+        "team": 2,
+        "networkSlot": 4,
+        "controllerIndex": 5,
+        "heroHandle": "004F8328",
+        "reason": "Observed local modifiers only; neither their names nor property caches establish enemy sight.",
+        "snapshot": {
+          "arrayCount": 14,
+          "nullEntries": 0,
+          "modifiers": [
+            {
+              "name": "modifier_pudge_innate_graft_flesh",
+              "nativeType": ".?AVCDOTA_Modifier_Pudge_GraftFlesh@@",
+              "nativeInstanceToken": 445,
+              "nativeListIndex": 0,
+              "parentHandle": 5210920,
+              "casterHandle": 5210920,
+              "abilityHandle": 17991436,
+              "pendingRemoval": false,
+              "clientCachedTeamHint": 2
+            },
+            {
+              "name": "modifier_pudge_dismember_awakening",
+              "nativeType": ".?AVCDOTA_Modifier_Lua@@",
+              "nativeInstanceToken": 446,
+              "nativeListIndex": 1,
+              "parentHandle": 5210920,
+              "casterHandle": 5210920,
+              "abilityHandle": 25757699,
+              "pendingRemoval": false,
+              "clientCachedTeamHint": 2
+            },
+            {
+              "name": "modifier_pudge_meat_hook_awakening",
+              "nativeType": ".?AVCDOTA_Modifier_Lua@@",
+              "nativeInstanceToken": 447,
+              "nativeListIndex": 2,
+              "parentHandle": 5210920,
+              "casterHandle": 5210920,
+              "abilityHandle": 26937357,
+              "pendingRemoval": false,
+              "clientCachedTeamHint": 2
+            },
+            {
+              "name": "modifier_pudge_flesh_heap_awakening",
+              "nativeType": ".?AVCDOTA_Modifier_Lua@@",
+              "nativeInstanceToken": 448,
+              "nativeListIndex": 3,
+              "parentHandle": 5210920,
+              "casterHandle": 5210920,
+              "abilityHandle": 26281995,
+              "pendingRemoval": false,
+              "clientCachedTeamHint": 2
+            },
+            {
+              "name": "modifier_pudge_rot_awakening",
+              "nativeType": ".?AVCDOTA_Modifier_Lua@@",
+              "nativeInstanceToken": 449,
+              "nativeListIndex": 4,
+              "parentHandle": 5210920,
+              "casterHandle": 5210920,
+              "abilityHandle": 19892236,
+              "pendingRemoval": false,
+              "clientCachedTeamHint": 2
+            },
+            {
+              "name": "modifier_awaken",
+              "nativeType": ".?AVCDOTA_Modifier_Lua@@",
+              "nativeInstanceToken": 450,
+              "nativeListIndex": 5,
+              "parentHandle": 5210920,
+              "casterHandle": 5210920,
+              "abilityHandle": 4294967295,
+              "pendingRemoval": false,
+              "clientCachedTeamHint": 2
+            },
+            {
+              "name": "modifier_rune",
+              "nativeType": ".?AVCDOTA_Modifier_Lua@@",
+              "nativeInstanceToken": 451,
+              "nativeListIndex": 6,
+              "parentHandle": 5210920,
+              "casterHandle": 5210920,
+              "abilityHandle": 4294967295,
+              "pendingRemoval": false,
+              "clientCachedTeamHint": 2
+            },
+            {
+              "name": "modifier_achievement",
+              "nativeType": ".?AVCDOTA_Modifier_Lua@@",
+              "nativeInstanceToken": 452,
+              "nativeListIndex": 7,
+              "parentHandle": 5210920,
+              "casterHandle": 5210920,
+              "abilityHandle": 4294967295,
+              "pendingRemoval": false,
+              "clientCachedTeamHint": 2
+            },
+            {
+              "name": "modifier_item_aghanims_shard",
+              "nativeType": ".?AVCDOTA_Modifier_Aghanims_Shard@@",
+              "nativeInstanceToken": 462,
+              "nativeListIndex": 11,
+              "parentHandle": 5210920,
+              "casterHandle": 5210920,
+              "abilityHandle": 4294967295,
+              "pendingRemoval": false,
+              "clientCachedTeamHint": 2
+            },
+            {
+              "name": "modifier_item_boots_of_speed",
+              "nativeType": ".?AVCDOTA_Modifier_Item_BootsOfSpeed@@",
+              "nativeInstanceToken": 511,
+              "nativeListIndex": 13,
+              "parentHandle": 5210920,
+              "casterHandle": 5210920,
+              "abilityHandle": 15042643,
+              "pendingRemoval": false,
+              "clientCachedTeamHint": 2
+            },
+            {
+              "name": "modifier_item_mysterious_hat_im",
+              "nativeType": ".?AVCDOTA_Modifier_Lua@@",
+              "nativeInstanceToken": 546,
+              "nativeListIndex": 16,
+              "parentHandle": 5210920,
+              "casterHandle": 5210920,
+              "abilityHandle": 3244878,
+              "pendingRemoval": false,
+              "clientCachedTeamHint": 2
+            },
+            {
+              "name": "modifier_item_octarine_core",
+              "nativeType": ".?AVCDOTA_Modifier_Item_Octarine_Core@@",
+              "nativeInstanceToken": 11132,
+              "nativeListIndex": 88,
+              "parentHandle": 5210920,
+              "casterHandle": 5210920,
+              "abilityHandle": 29657027,
+              "pendingRemoval": false,
+              "clientCachedTeamHint": 2
+            },
+            {
+              "name": "modifier_lycan_howl",
+              "nativeType": ".?AVCDOTA_Modifier_Lycan_Howl@@",
+              "nativeInstanceToken": 11432,
+              "nativeListIndex": 90,
+              "parentHandle": 5210920,
+              "casterHandle": 19729300,
+              "abilityHandle": 9275261,
+              "pendingRemoval": false,
+              "clientCachedTeamHint": 3
+            },
+            {
+              "name": "modifier_pudge_rot",
+              "nativeType": ".?AVCDOTA_Modifier_Pudge_Rot@@",
+              "nativeInstanceToken": 11520,
+              "nativeListIndex": 92,
+              "parentHandle": 5210920,
+              "casterHandle": 5210920,
+              "abilityHandle": 19892236,
+              "pendingRemoval": false,
+              "clientCachedTeamHint": 2
+            }
+          ],
+          "teamCache": {
+            "trueSightMask": 0,
+            "trueSightValidMask": 0,
+            "fowPositionMask": 0,
+            "fowPositionValidMask": 0
+          },
+          "invisibilityLevel": 0,
+          "unitStateBits": "0000000000000000",
+          "currentHeroVisibility": "Unknown",
+          "canDriveCurrentOverlay": false
+        },
+        "casterObservations": [
+          {
+            "handle": 5210920,
+            "availability": "resolved",
+            "rawEntityTeam": 2,
+            "nativeEntityKind": 3,
+            "ownerHandle": 9273349,
+            "effectiveTeam": null,
+            "isEnemySightEvidence": false
+          },
+          {
+            "handle": 19729300,
+            "availability": "resolved",
+            "rawEntityTeam": 3,
+            "nativeEntityKind": 3,
+            "ownerHandle": 26705921,
+            "effectiveTeam": null,
+            "isEnemySightEvidence": false
+          }
+        ],
+        "currentHeroVisibility": "Unknown",
+        "canDriveCurrentOverlay": false
+      },
+      "lastAcceptedSample": {
+        "kind": "modifier_sample",
+        "utc": "2026-09-30T16:06:41.7616281+00:00",
+        "segment": 1,
+        "playerId": 9,
+        "team": 2,
+        "networkSlot": 4,
+        "controllerIndex": 5,
+        "heroHandle": "004F8328",
+        "reason": "Observed local modifiers only; neither their names nor property caches establish enemy sight.",
+        "snapshot": {
+          "arrayCount": 15,
+          "nullEntries": 0,
+          "modifiers": [
+            {
+              "name": "modifier_pudge_innate_graft_flesh",
+              "nativeType": ".?AVCDOTA_Modifier_Pudge_GraftFlesh@@",
+              "nativeInstanceToken": 445,
+              "nativeListIndex": 0,
+              "parentHandle": 5210920,
+              "casterHandle": 5210920,
+              "abilityHandle": 17991436,
+              "pendingRemoval": false,
+              "clientCachedTeamHint": 2
+            },
+            {
+              "name": "modifier_pudge_dismember_awakening",
+              "nativeType": ".?AVCDOTA_Modifier_Lua@@",
+              "nativeInstanceToken": 446,
+              "nativeListIndex": 1,
+              "parentHandle": 5210920,
+              "casterHandle": 5210920,
+              "abilityHandle": 25757699,
+              "pendingRemoval": false,
+              "clientCachedTeamHint": 2
+            },
+            {
+              "name": "modifier_pudge_meat_hook_awakening",
+              "nativeType": ".?AVCDOTA_Modifier_Lua@@",
+              "nativeInstanceToken": 447,
+              "nativeListIndex": 2,
+              "parentHandle": 5210920,
+              "casterHandle": 5210920,
+              "abilityHandle": 26937357,
+              "pendingRemoval": false,
+              "clientCachedTeamHint": 2
+            },
+            {
+              "name": "modifier_pudge_flesh_heap_awakening",
+              "nativeType": ".?AVCDOTA_Modifier_Lua@@",
+              "nativeInstanceToken": 448,
+              "nativeListIndex": 3,
+              "parentHandle": 5210920,
+              "casterHandle": 5210920,
+              "abilityHandle": 26281995,
+              "pendingRemoval": false,
+              "clientCachedTeamHint": 2
+            },
+            {
+              "name": "modifier_pudge_rot_awakening",
+              "nativeType": ".?AVCDOTA_Modifier_Lua@@",
+              "nativeInstanceToken": 449,
+              "nativeListIndex": 4,
+              "parentHandle": 5210920,
+              "casterHandle": 5210920,
+              "abilityHandle": 19892236,
+              "pendingRemoval": false,
+              "clientCachedTeamHint": 2
+            },
+            {
+              "name": "modifier_awaken",
+              "nativeType": ".?AVCDOTA_Modifier_Lua@@",
+              "nativeInstanceToken": 450,
+              "nativeListIndex": 5,
+              "parentHandle": 5210920,
+              "casterHandle": 5210920,
+              "abilityHandle": 4294967295,
+              "pendingRemoval": false,
+              "clientCachedTeamHint": 2
+            },
+            {
+              "name": "modifier_rune",
+              "nativeType": ".?AVCDOTA_Modifier_Lua@@",
+              "nativeInstanceToken": 451,
+              "nativeListIndex": 6,
+              "parentHandle": 5210920,
+              "casterHandle": 5210920,
+              "abilityHandle": 4294967295,
+              "pendingRemoval": false,
+              "clientCachedTeamHint": 2
+            },
+            {
+              "name": "modifier_achievement",
+              "nativeType": ".?AVCDOTA_Modifier_Lua@@",
+              "nativeInstanceToken": 452,
+              "nativeListIndex": 7,
+              "parentHandle": 5210920,
+              "casterHandle": 5210920,
+              "abilityHandle": 4294967295,
+              "pendingRemoval": false,
+              "clientCachedTeamHint": 2
+            },
+            {
+              "name": "modifier_item_aghanims_shard",
+              "nativeType": ".?AVCDOTA_Modifier_Aghanims_Shard@@",
+              "nativeInstanceToken": 462,
+              "nativeListIndex": 11,
+              "parentHandle": 5210920,
+              "casterHandle": 5210920,
+              "abilityHandle": 4294967295,
+              "pendingRemoval": false,
+              "clientCachedTeamHint": 2
+            },
+            {
+              "name": "modifier_item_boots_of_speed",
+              "nativeType": ".?AVCDOTA_Modifier_Item_BootsOfSpeed@@",
+              "nativeInstanceToken": 511,
+              "nativeListIndex": 13,
+              "parentHandle": 5210920,
+              "casterHandle": 5210920,
+              "abilityHandle": 15042643,
+              "pendingRemoval": false,
+              "clientCachedTeamHint": 2
+            },
+            {
+              "name": "modifier_item_mysterious_hat_im",
+              "nativeType": ".?AVCDOTA_Modifier_Lua@@",
+              "nativeInstanceToken": 546,
+              "nativeListIndex": 16,
+              "parentHandle": 5210920,
+              "casterHandle": 5210920,
+              "abilityHandle": 3244878,
+              "pendingRemoval": false,
+              "clientCachedTeamHint": 2
+            },
+            {
+              "name": "modifier_item_octarine_core",
+              "nativeType": ".?AVCDOTA_Modifier_Item_Octarine_Core@@",
+              "nativeInstanceToken": 11132,
+              "nativeListIndex": 88,
+              "parentHandle": 5210920,
+              "casterHandle": 5210920,
+              "abilityHandle": 29657027,
+              "pendingRemoval": false,
+              "clientCachedTeamHint": 2
+            },
+            {
+              "name": "modifier_lycan_howl",
+              "nativeType": ".?AVCDOTA_Modifier_Lycan_Howl@@",
+              "nativeInstanceToken": 11432,
+              "nativeListIndex": 90,
+              "parentHandle": 5210920,
+              "casterHandle": 19729300,
+              "abilityHandle": 9275261,
+              "pendingRemoval": false,
+              "clientCachedTeamHint": 3
+            },
+            {
+              "name": "modifier_pudge_rot",
+              "nativeType": ".?AVCDOTA_Modifier_Pudge_Rot@@",
+              "nativeInstanceToken": 11520,
+              "nativeListIndex": 92,
+              "parentHandle": 5210920,
+              "casterHandle": 5210920,
+              "abilityHandle": 19892236,
+              "pendingRemoval": false,
+              "clientCachedTeamHint": 2
+            },
+            {
+              "name": "modifier_giant_wolf_intimidate",
+              "nativeType": ".?AVCDOTA_Modifier_GiantWolf_Intimidate@@",
+              "nativeInstanceToken": 11617,
+              "nativeListIndex": 93,
+              "parentHandle": 5210920,
+              "casterHandle": 17532373,
+              "abilityHandle": 7669204,
+              "pendingRemoval": false,
+              "clientCachedTeamHint": 4
+            }
+          ],
+          "teamCache": {
+            "trueSightMask": 0,
+            "trueSightValidMask": 0,
+            "fowPositionMask": 0,
+            "fowPositionValidMask": 0
+          },
+          "invisibilityLevel": 0,
+          "unitStateBits": "0000000000000000",
+          "currentHeroVisibility": "Unknown",
+          "canDriveCurrentOverlay": false
+        },
+        "casterObservations": [
+          {
+            "handle": 5210920,
+            "availability": "resolved",
+            "rawEntityTeam": 2,
+            "nativeEntityKind": 3,
+            "ownerHandle": 9273349,
+            "effectiveTeam": null,
+            "isEnemySightEvidence": false
+          },
+          {
+            "handle": 19729300,
+            "availability": "resolved",
+            "rawEntityTeam": 3,
+            "nativeEntityKind": 3,
+            "ownerHandle": 26705921,
+            "effectiveTeam": null,
+            "isEnemySightEvidence": false
+          },
+          {
+            "handle": 17532373,
+            "availability": "resolved",
+            "rawEntityTeam": 4,
+            "nativeEntityKind": 3,
+            "ownerHandle": 4294967295,
+            "effectiveTeam": null,
+            "isEnemySightEvidence": false
+          }
+        ],
+        "currentHeroVisibility": "Unknown",
+        "canDriveCurrentOverlay": false
+      }
+    }
+  ],
+  "currentHeroVisibility": "Unknown",
+  "canDriveCurrentOverlay": false,
+  "additionalExploration": {
+    "rawStringTablePrototype": "Rejected by its storage bounds before payload decoding; no payload availability conclusion.",
+    "prototypeErrorAffectedDotaProcess": false
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "scope": "Local installed Arcade package and one native local-player context observation. Not enemy-view ground truth.",
+  "liveContext": {
+    "Utc": "2026-09-30T16:06:07.4569198+00:00",
+    "DotaPlayerId": 9,
+    "LocalTeam": 2,
+    "HeroHandle": "004F8328",
+    "ProxyHandle": "00508359",
+    "CustomGame": 1,
+    "Addon": "D:\\Program Files (x86)\\Steam\\steamapps\\workshop\\content\\570\\3320645051\\3320645051.vpk",
+    "Map": "dota",
+    "IdentityStable": true
+  },
+  "clientSha256": "88fa24c60a8c68f84d25cc2285019889c05db0c55b2bed1165d6f98fa7c18215",
+  "nativeContextLayout": {
+    "gameManagerVtableRva": "0x4741c08",
+    "proxyVtableRva": "0x4744d80",
+    "managerPointerOffset": "0x5f0",
+    "customGameOffset": "0x1630",
+    "addonOffset": "0x1634",
+    "mapOffset": "0x16b4",
+    "stringLimitBytes": 128,
+    "fullProxyAndHeroHandlesChecked": true,
+    "metadataReread": true
+  },
+  "package": {
+    "workshopId": "3320645051",
+    "fileName": "3320645051.vpk",
+    "bytes": 390880396,
+    "sha256": "656ae5d639af2daab21cc6a493bf353923ee1b43b32e9a235086d32d53ea42f4",
+    "members": 1586
+  },
+  "offlineInspection": {
+    "decodedWrapperModules": 353,
+    "plaintextLuaFilesInspected": 356,
+    "plaintextManifestSha256": "a148d0acbad439c2aee6dc27f31d59a1c33c1ba15d33b1726d948437bd7f229c",
+    "dataOnly": true,
+    "luaExecuted": false,
+    "gameFilesModified": false,
+    "hostContacted": false,
+    "sourcesKeptInIgnoredScratchOnly": true,
+    "contentKeysIncludedInEvidence": false
+  },
+  "configuredNetTables": [
+    "common",
+    "service",
+    "player_data",
+    "treasure"
+  ],
+  "selectedMembers": [
+    {
+      "member": "scripts/vscripts/modifiers/modifier_treasure_items.lua",
+      "packageMemberSha256": "37906520d24da8e6d66cf92cc5192214677e61d7633df8a67ec9048904a3b5fc",
+      "plaintextSha256": "af72e86fd86e667b9a641216682682c232bf0767607e632a046a4d5a152be8f1",
+      "plaintextBytes": 5533,
+      "memberCrc32": "6de98a8f"
+    },
+    {
+      "member": "scripts/vscripts/base/modifier_base.lua",
+      "packageMemberSha256": "43f2d872d629ab4d4f7ff099e8a3b31671d433c29b6acadd795dcd43197a8948",
+      "plaintextSha256": "69652732f7475bed1b51e3adfa2928877b576b8a5a7e952848f7128e9d3d3110",
+      "plaintextBytes": 17156,
+      "memberCrc32": "62fffba6"
+    },
+    {
+      "member": "scripts/vscripts/hero/hero_mirana/modifier_mirana_awaken.lua",
+      "packageMemberSha256": "646bbcd20374034a662fd8b77b51e4a315ae49b07facdd8b35f7d709321a3828",
+      "plaintextSha256": "4348bd11307dc241595d1a3c0d87b87c32672354aee1a4250b1700bf51989ccb",
+      "plaintextBytes": 3978,
+      "memberCrc32": "49f58984"
+    },
+    {
+      "member": "scripts/vscripts/hero/hero_riki/modifier_riki_awaken.lua",
+      "packageMemberSha256": "102a1f3abfd413cd3e4480283b4ea9d5c485500bcc477d6e6a9e4d1e74cf9c46",
+      "plaintextSha256": "2a4f887ed57c7f8ced74920f3e0ac8053a48ebc38dbd7951f0a8fb0596cd6e30",
+      "plaintextBytes": 4475,
+      "memberCrc32": "06e9b4d8"
+    },
+    {
+      "member": "scripts/vscripts/addon_game_mode_client.lua",
+      "packageMemberSha256": "c3c1aa285f2394cce3a0f96a80c691d965bc21a6d56c3c72170690c419e7b1f9",
+      "plaintextSha256": "c3c1aa285f2394cce3a0f96a80c691d965bc21a6d56c3c72170690c419e7b1f9",
+      "plaintextBytes": 2906,
+      "memberCrc32": "85e81a61"
+    }
+  ],
+  "literalTokenCountsIncludingComments": {
+    "CanBeSeenByAnyOpposingTeam": 0,
+    "CanEntityBeSeenByMyTeam": 0,
+    "HasTruesightForTeam": 0,
+    "ProvidesFOWVision": 0,
+    "PROVIDES_FOW_POSITION": 0,
+    "mz_modifier_provides_vision": 3
+  },
+  "gemDisplayModifier": {
+    "name": "modifier_zhenshibaoshi_xianshi",
+    "member": "scripts/vscripts/modifiers/modifier_treasure_items.lua",
+    "declaredMethods": [
+      "RemoveOnDeath",
+      "IsDebuff",
+      "IsHidden",
+      "IsPurgable",
+      "IsPurgeException",
+      "GetTexture"
+    ],
+    "texture": "item_gem",
+    "containsEnemySightQueryInReviewedClass": false,
+    "scope": "UI display modifier only, not all native Gem behavior."
+  },
+  "visionHelper": {
+    "name": "mz_modifier_provides_vision",
+    "member": "scripts/vscripts/base/modifier_base.lua",
+    "setsUnitStateProvidesVision": true,
+    "isNetworkedEnemySightHeartbeat": false
+  },
+  "interpretation": {
+    "directOwnerEnemySightFeedFoundInReviewedSurface": false,
+    "allAddonCodePathsRuledOut": false,
+    "currentHeroVisibility": "Unknown",
+    "canDriveCurrentOverlay": false
+  },
+  "limits": [
+    "Literal-token scanning is not alias resolution, interprocedural analysis or a proof of absence.",
+    "The active host runtime may differ from the locally installed package.",
+    "Other native data paths and dynamically generated code were not ruled out.",
+    "No observer-ward-only out/in/out transition was independently labelled in this audit."
+  ]
+}

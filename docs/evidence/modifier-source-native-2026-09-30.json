@@ -1,0 +1,808 @@
+{
+  "schemaVersion": 1,
+  "scope": "Installed file contracts; no remote host access, game-code calls or packet capture.",
+  "modules": [
+    {
+      "name": "client.dll",
+      "sha256": "88fa24c60a8c68f84d25cc2285019889c05db0c55b2bed1165d6f98fa7c18215"
+    },
+    {
+      "name": "server.dll",
+      "sha256": "02b90bbb5814bc1af39cada58b6b8311808e01e84aa8fab894bdaea896a8cd47"
+    }
+  ],
+  "codeContracts": [
+    {
+      "meaning": "parent field decoder jump-table entry",
+      "rva": "0xd076d0",
+      "bytes": "4667d000"
+    },
+    {
+      "meaning": "parent decoder checks protobuf tag 2/varint",
+      "rva": "0xd06746",
+      "bytes": "4080fe10"
+    },
+    {
+      "meaning": "parent decoder stores parsed parent at +E0",
+      "rva": "0xd06793",
+      "bytes": "418996e0000000"
+    },
+    {
+      "meaning": "consumer reads +E0 from message at stack+20",
+      "rva": "0x15026b0",
+      "bytes": "8bbc2400010000"
+    },
+    {
+      "meaning": "initializer reads caster",
+      "rva": "0x14d7bbc",
+      "bytes": "8b4e68"
+    },
+    {
+      "meaning": "initializer fallback reads parent",
+      "rva": "0x14d7c58",
+      "bytes": "8b4e74"
+    },
+    {
+      "meaning": "initializer reads resolved entity raw team",
+      "rva": "0x14d7ca5",
+      "bytes": "0fb687e7030000"
+    },
+    {
+      "meaning": "initializer stores local cached team",
+      "rva": "0x14d7cb2",
+      "bytes": "898694000000"
+    },
+    {
+      "meaning": "TrueSight reads caster handle",
+      "rva": "0x14e88e6",
+      "bytes": "448b4168"
+    },
+    {
+      "meaning": "TrueSight full handle check",
+      "rva": "0x14e8937",
+      "bytes": "44394010"
+    },
+    {
+      "meaning": "TrueSight native NPC type check",
+      "rva": "0x14e89af",
+      "bytes": "80bad005000003"
+    },
+    {
+      "meaning": "TrueSight uses effective-team virtual method",
+      "rva": "0x14e8a65",
+      "bytes": "ff90680b0000"
+    },
+    {
+      "meaning": "TrueSight compares requested team",
+      "rva": "0x14e8a6b",
+      "bytes": "3bd80f94c0"
+    },
+    {
+      "meaning": "TrueSight fallback uses cached team",
+      "rva": "0x14e8a8a",
+      "bytes": "413b9a940000000f94c0"
+    },
+    {
+      "meaning": "TrueSightFoW reads caster handle",
+      "rva": "0x14e8c26",
+      "bytes": "448b4168"
+    },
+    {
+      "meaning": "TrueSightFoW full handle check",
+      "rva": "0x14e8c77",
+      "bytes": "44394010"
+    },
+    {
+      "meaning": "TrueSightFoW effective-team virtual method",
+      "rva": "0x14e8da5",
+      "bytes": "ff90680b0000"
+    },
+    {
+      "meaning": "TrueSightFoW fallback cached team",
+      "rva": "0x14e8dca",
+      "bytes": "413b9a940000000f94c0"
+    },
+    {
+      "meaning": "TrueSightAll property constant true",
+      "rva": "0x14e8f10",
+      "bytes": "b001c3"
+    },
+    {
+      "meaning": "gem aura item property default false",
+      "rva": "0xf0af80",
+      "bytes": "32c0c3"
+    },
+    {
+      "meaning": "NPC effective-team owner handle",
+      "rva": "0x16418c6",
+      "bytes": "8b9114050000"
+    },
+    {
+      "meaning": "NPC owner full-handle check",
+      "rva": "0x164190c",
+      "bytes": "395010"
+    },
+    {
+      "meaning": "NPC delegates effective team to owner",
+      "rva": "0x1641937",
+      "bytes": "48ffa0680b0000"
+    },
+    {
+      "meaning": "NPC raw-team fallback",
+      "rva": "0x1641990",
+      "bytes": "0fb683e7030000"
+    },
+    {
+      "meaning": "TrueSight common callback member",
+      "rva": "0x14e88cb",
+      "bytes": "0f1181e0170000"
+    },
+    {
+      "meaning": "TrueSightFoW additional callback member",
+      "rva": "0x14e8c08",
+      "bytes": "0f1181d0100000"
+    },
+    {
+      "meaning": "TrueSightFoW common callback member",
+      "rva": "0x14e8c13",
+      "bytes": "0f1181e0170000"
+    },
+    {
+      "meaning": "FoW callback recipient/team context handle",
+      "rva": "0x14fbfef",
+      "bytes": "418b90c4000000"
+    },
+    {
+      "meaning": "FoW callback compares cached team",
+      "rva": "0x14fc054",
+      "bytes": "413b8294000000"
+    },
+    {
+      "meaning": "FoW callback parent handle",
+      "rva": "0x14fc07a",
+      "bytes": "418b4a74"
+    },
+    {
+      "meaning": "FoW callback zero property result",
+      "rva": "0x14fc0ed",
+      "bytes": "897b04"
+    },
+    {
+      "meaning": "FoW callback one property result",
+      "rva": "0x14fc0fe",
+      "bytes": "c743040000803f"
+    },
+    {
+      "meaning": "wire parent invalid sentinel",
+      "rva": "0x15026b7",
+      "bytes": "81ffffffff00"
+    },
+    {
+      "meaning": "wire serial shift",
+      "rva": "0x15026d2",
+      "bytes": "c1ef0e"
+    },
+    {
+      "meaning": "wire index mask",
+      "rva": "0x15026d5",
+      "bytes": "81e3ff3f0000"
+    },
+    {
+      "meaning": "wire serial mask",
+      "rva": "0x15026db",
+      "bytes": "81e7ff030000"
+    },
+    {
+      "meaning": "runtime handle index mask",
+      "rva": "0x150271b",
+      "bytes": "25ff7f0000"
+    },
+    {
+      "meaning": "identity flags read",
+      "rva": "0x1502732",
+      "bytes": "8b441030"
+    },
+    {
+      "meaning": "identity flag adjustment",
+      "rva": "0x1502736",
+      "bytes": "83e001c1e90f2bc8"
+    },
+    {
+      "meaning": "runtime serial reconstruction",
+      "rva": "0x1502750",
+      "bytes": "c1e70f0bfb"
+    }
+  ],
+  "references": [
+    {
+      "meaning": "missing caster to parent fallback",
+      "rva": "0x14d7bc9",
+      "target": "0x14d7c58",
+      "bytes": "0f8489000000"
+    },
+    {
+      "meaning": "TrueSight absent caster fallback",
+      "rva": "0x14e88f3",
+      "target": "0x14e8a8a",
+      "bytes": "0f8491010000"
+    },
+    {
+      "meaning": "TrueSightFoW absent caster fallback",
+      "rva": "0x14e8c33",
+      "target": "0x14e8dca",
+      "bytes": "0f8491010000"
+    },
+    {
+      "meaning": "TrueSight callback address",
+      "rva": "0x14e88b4",
+      "target": "0x1500d80",
+      "bytes": "488d05c5840100"
+    },
+    {
+      "meaning": "TrueSightFoW specific callback address",
+      "rva": "0x14e8be4",
+      "target": "0x14fbfe0",
+      "bytes": "488d05f5330100"
+    },
+    {
+      "meaning": "TrueSightFoW common callback address",
+      "rva": "0x14e8bf1",
+      "target": "0x1500f40",
+      "bytes": "488d0548830100"
+    },
+    {
+      "meaning": "FoW callback exclusion string",
+      "rva": "0x14fc0ce",
+      "target": "0x3f0dec0",
+      "bytes": "488d15eb1da102"
+    },
+    {
+      "meaning": "NPC effective-team alternate lookup",
+      "rva": "0x1641985",
+      "target": "0x1ff3230",
+      "bytes": "e8a6189b00"
+    }
+  ],
+  "methods": [
+    {
+      "module": "client.dll",
+      "type": ".?AVCDOTA_Modifier_TrueSight@@",
+      "vtable": "0x4719da0",
+      "slot": 96,
+      "method": "0x14e88e0"
+    },
+    {
+      "module": "client.dll",
+      "type": ".?AVCDOTA_Modifier_TrueSightFoW@@",
+      "vtable": "0x471a270",
+      "slot": 96,
+      "method": "0x14e8c20"
+    },
+    {
+      "module": "client.dll",
+      "type": ".?AVCDOTA_Modifier_TrueSightAll@@",
+      "vtable": "0x471a728",
+      "slot": 96,
+      "method": "0x14e8f10"
+    },
+    {
+      "module": "client.dll",
+      "type": ".?AVCDOTA_Modifier_Item_GemOfTrueSight@@",
+      "vtable": "0x44e14e0",
+      "slot": 96,
+      "method": "0xf0af80"
+    },
+    {
+      "module": "client.dll",
+      "type": ".?AVC_DOTA_BaseNPC@@",
+      "vtable": "0x4872be8",
+      "slot": 365,
+      "method": "0x16418c0"
+    },
+    {
+      "module": "client.dll",
+      "type": ".?AVC_DOTA_BaseNPC_Hero@@",
+      "vtable": "0x4873ce0",
+      "slot": 365,
+      "method": "0x16418c0"
+    },
+    {
+      "module": "client.dll",
+      "type": ".?AVCDOTAModifierBuffTableEntry@@",
+      "vtable": "0x3d5fef8",
+      "slot": 9,
+      "method": "0xd065d0"
+    },
+    {
+      "module": "server.dll",
+      "type": ".?AVCDOTA_Modifier_TrueSight@@",
+      "vtable": "0x39ea678",
+      "slot": 116,
+      "method": "0x1678430"
+    },
+    {
+      "module": "server.dll",
+      "type": ".?AVCDOTA_Modifier_TrueSightFoW@@",
+      "vtable": "0x39ead10",
+      "slot": 116,
+      "method": "0x1678b80"
+    },
+    {
+      "module": "server.dll",
+      "type": ".?AVCDOTA_Modifier_TrueSightAll@@",
+      "vtable": "0x39eb380",
+      "slot": 116,
+      "method": "0x1679280"
+    }
+  ],
+  "regions": [
+    {
+      "meaning": "local cached-team initialization",
+      "rva": "0x14d7a30",
+      "size": 721,
+      "sha256": "32f7cf9c99ce57fd67e9a3b2ab48bdeb08237065babf10fffedb4a08e1a6b21d"
+    },
+    {
+      "meaning": "TrueSight team property",
+      "rva": "0x14e88e0",
+      "size": 442,
+      "sha256": "966373e2a3747926e5de1b3729f878ac889c3b37cbfe0a17ac0ac55f8eb8d7f5"
+    },
+    {
+      "meaning": "TrueSightFoW team property",
+      "rva": "0x14e8c20",
+      "size": 442,
+      "sha256": "6ee8626f08b4e3e804e1dc082f64d9a30780a01de16437df7f40c5c9c3ef0862"
+    },
+    {
+      "meaning": "NPC effective-team getter",
+      "rva": "0x16418c0",
+      "size": 221,
+      "sha256": "6c5d147dc8dc4a276649f6b3128e3ee0b240f36bdf807f610f6e7961a1a505e0"
+    },
+    {
+      "meaning": "FoW-specific callback",
+      "rva": "0x14fbfe0",
+      "size": 307,
+      "sha256": "440d3f48f8ccb6409a1d296a8e03bd93a53b994d7b91a947adb5915886e67e85"
+    },
+    {
+      "meaning": "compressed parent-handle consumer",
+      "rva": "0x15026b0",
+      "size": 214,
+      "sha256": "98d7e3d1d10b4ce3e35a53083ed7ea4701ebc041b2d9b785dada44597211a7f2"
+    }
+  ],
+  "fowCallbackExcludedModifier": "modifier_slark_shadow_dance",
+  "buffDescriptor": {
+    "name": "dota_modifiers.proto",
+    "rva": "0x3d73e80",
+    "size": 1572,
+    "sha256": "1475f636ab20113ec84ec7878b4dbed056e4e104b4386efb18a6548e33b3eae2",
+    "messages": [
+      {
+        "name": "CDOTAModifierBuffTableEntry",
+        "fields": [
+          {
+            "name": "entry_type",
+            "number": 1,
+            "label": 1,
+            "type": 14,
+            "typeName": ".DOTA_MODIFIER_ENTRY_TYPE",
+            "default": null
+          },
+          {
+            "name": "parent",
+            "number": 2,
+            "label": 1,
+            "type": 13,
+            "typeName": null,
+            "default": "16777215"
+          },
+          {
+            "name": "index",
+            "number": 3,
+            "label": 1,
+            "type": 5,
+            "typeName": null,
+            "default": null
+          },
+          {
+            "name": "serial_num",
+            "number": 4,
+            "label": 1,
+            "type": 5,
+            "typeName": null,
+            "default": null
+          },
+          {
+            "name": "modifier_class",
+            "number": 5,
+            "label": 1,
+            "type": 5,
+            "typeName": null,
+            "default": null
+          },
+          {
+            "name": "ability_level",
+            "number": 6,
+            "label": 1,
+            "type": 5,
+            "typeName": null,
+            "default": null
+          },
+          {
+            "name": "stack_count",
+            "number": 7,
+            "label": 1,
+            "type": 5,
+            "typeName": null,
+            "default": null
+          },
+          {
+            "name": "creation_time",
+            "number": 8,
+            "label": 1,
+            "type": 2,
+            "typeName": null,
+            "default": null
+          },
+          {
+            "name": "duration",
+            "number": 9,
+            "label": 1,
+            "type": 2,
+            "typeName": null,
+            "default": "-1"
+          },
+          {
+            "name": "caster",
+            "number": 10,
+            "label": 1,
+            "type": 13,
+            "typeName": null,
+            "default": "16777215"
+          },
+          {
+            "name": "ability",
+            "number": 11,
+            "label": 1,
+            "type": 13,
+            "typeName": null,
+            "default": "16777215"
+          },
+          {
+            "name": "armor",
+            "number": 12,
+            "label": 1,
+            "type": 5,
+            "typeName": null,
+            "default": null
+          },
+          {
+            "name": "fade_time",
+            "number": 13,
+            "label": 1,
+            "type": 2,
+            "typeName": null,
+            "default": null
+          },
+          {
+            "name": "subtle",
+            "number": 14,
+            "label": 1,
+            "type": 8,
+            "typeName": null,
+            "default": null
+          },
+          {
+            "name": "channel_time",
+            "number": 15,
+            "label": 1,
+            "type": 2,
+            "typeName": null,
+            "default": null
+          },
+          {
+            "name": "v_start",
+            "number": 16,
+            "label": 1,
+            "type": 11,
+            "typeName": ".CMsgVector",
+            "default": null
+          },
+          {
+            "name": "v_end",
+            "number": 17,
+            "label": 1,
+            "type": 11,
+            "typeName": ".CMsgVector",
+            "default": null
+          },
+          {
+            "name": "portal_loop_appear",
+            "number": 18,
+            "label": 1,
+            "type": 9,
+            "typeName": null,
+            "default": null
+          },
+          {
+            "name": "portal_loop_disappear",
+            "number": 19,
+            "label": 1,
+            "type": 9,
+            "typeName": null,
+            "default": null
+          },
+          {
+            "name": "hero_loop_appear",
+            "number": 20,
+            "label": 1,
+            "type": 9,
+            "typeName": null,
+            "default": null
+          },
+          {
+            "name": "hero_loop_disappear",
+            "number": 21,
+            "label": 1,
+            "type": 9,
+            "typeName": null,
+            "default": null
+          },
+          {
+            "name": "movement_speed",
+            "number": 22,
+            "label": 1,
+            "type": 5,
+            "typeName": null,
+            "default": null
+          },
+          {
+            "name": "aura",
+            "number": 23,
+            "label": 1,
+            "type": 8,
+            "typeName": null,
+            "default": null
+          },
+          {
+            "name": "activity",
+            "number": 24,
+            "label": 1,
+            "type": 5,
+            "typeName": null,
+            "default": null
+          },
+          {
+            "name": "damage",
+            "number": 25,
+            "label": 1,
+            "type": 5,
+            "typeName": null,
+            "default": null
+          },
+          {
+            "name": "range",
+            "number": 26,
+            "label": 1,
+            "type": 5,
+            "typeName": null,
+            "default": null
+          },
+          {
+            "name": "dd_modifier_index",
+            "number": 27,
+            "label": 1,
+            "type": 5,
+            "typeName": null,
+            "default": null
+          },
+          {
+            "name": "dd_ability_id",
+            "number": 28,
+            "label": 1,
+            "type": 5,
+            "typeName": null,
+            "default": "-1"
+          },
+          {
+            "name": "illusion_label",
+            "number": 29,
+            "label": 1,
+            "type": 9,
+            "typeName": null,
+            "default": null
+          },
+          {
+            "name": "active",
+            "number": 30,
+            "label": 1,
+            "type": 8,
+            "typeName": null,
+            "default": null
+          },
+          {
+            "name": "player_ids",
+            "number": 31,
+            "label": 1,
+            "type": 9,
+            "typeName": null,
+            "default": null
+          },
+          {
+            "name": "lua_name",
+            "number": 32,
+            "label": 1,
+            "type": 9,
+            "typeName": null,
+            "default": null
+          },
+          {
+            "name": "attack_speed",
+            "number": 33,
+            "label": 1,
+            "type": 5,
+            "typeName": null,
+            "default": null
+          },
+          {
+            "name": "aura_owner",
+            "number": 34,
+            "label": 1,
+            "type": 13,
+            "typeName": null,
+            "default": "16777215"
+          },
+          {
+            "name": "bonus_all_stats",
+            "number": 35,
+            "label": 1,
+            "type": 5,
+            "typeName": null,
+            "default": null
+          },
+          {
+            "name": "bonus_health",
+            "number": 36,
+            "label": 1,
+            "type": 5,
+            "typeName": null,
+            "default": null
+          },
+          {
+            "name": "bonus_mana",
+            "number": 37,
+            "label": 1,
+            "type": 5,
+            "typeName": null,
+            "default": null
+          },
+          {
+            "name": "custom_entity",
+            "number": 38,
+            "label": 1,
+            "type": 13,
+            "typeName": null,
+            "default": "16777215"
+          },
+          {
+            "name": "aura_within_range",
+            "number": 39,
+            "label": 1,
+            "type": 8,
+            "typeName": null,
+            "default": null
+          },
+          {
+            "name": "move_slow",
+            "number": 40,
+            "label": 1,
+            "type": 2,
+            "typeName": null,
+            "default": null
+          },
+          {
+            "name": "has_scepter",
+            "number": 41,
+            "label": 1,
+            "type": 8,
+            "typeName": null,
+            "default": null
+          },
+          {
+            "name": "has_shard",
+            "number": 42,
+            "label": 1,
+            "type": 8,
+            "typeName": null,
+            "default": null
+          },
+          {
+            "name": "custom_int_values",
+            "number": 43,
+            "label": 3,
+            "type": 5,
+            "typeName": null,
+            "default": null
+          },
+          {
+            "name": "custom_float_values",
+            "number": 44,
+            "label": 3,
+            "type": 2,
+            "typeName": null,
+            "default": null
+          }
+        ]
+      }
+    ],
+    "enums": []
+  },
+  "namedBuffFields": [
+    "entry_type",
+    "parent",
+    "index",
+    "serial_num",
+    "modifier_class",
+    "ability_level",
+    "stack_count",
+    "creation_time",
+    "duration",
+    "caster",
+    "ability",
+    "armor",
+    "fade_time",
+    "subtle",
+    "channel_time",
+    "v_start",
+    "v_end",
+    "portal_loop_appear",
+    "portal_loop_disappear",
+    "hero_loop_appear",
+    "hero_loop_disappear",
+    "movement_speed",
+    "aura",
+    "activity",
+    "damage",
+    "range",
+    "dd_modifier_index",
+    "dd_ability_id",
+    "illusion_label",
+    "active",
+    "player_ids",
+    "lua_name",
+    "attack_speed",
+    "aura_owner",
+    "bonus_all_stats",
+    "bonus_health",
+    "bonus_mana",
+    "custom_entity",
+    "aura_within_range",
+    "move_slow",
+    "has_scepter",
+    "has_shard",
+    "custom_int_values",
+    "custom_float_values"
+  ],
+  "interpretation": {
+    "cachedTeamCanComeFromParent": true,
+    "rawCasterTeamEqualsNativeEffectiveTeam": false,
+    "auraEmitterEqualsTargetTrueSightProperty": false,
+    "fowSpecificCallbackIsConditional": true,
+    "wireParentEqualsRuntimeFullHandle": false,
+    "ordinaryBuffFieldCount": 44,
+    "customValuesAndOtherMessagesExhausted": false,
+    "liveEnemyViewGroundTruthVerified": false,
+    "currentHeroVisibility": "Unknown",
+    "canDriveCurrentOverlay": false
+  },
+  "limitations": [
+    "TrueSight and FoW properties do not by themselves certify final entity visibility.",
+    "A missing caster is not authoritatively assigned the parent's or cached team.",
+    "Effective team can depend on an owner and custom game behavior.",
+    "The ordinary descriptor does not exhaust custom_int_values/custom_float_values or other channels.",
+    "Static receive consumers do not prove a specific remote packet was delivered."
+  ]
+}

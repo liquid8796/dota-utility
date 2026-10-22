@@ -1,0 +1,277 @@
+{
+  "schemaVersion": 1,
+  "localDate": "2026-09-29",
+  "timezone": "UTC+07:00",
+  "staticVerification": {
+    "schemaVersion": 1,
+    "method": "Offline hash, signature, call-site and field-descriptor checks",
+    "module": "client.dll",
+    "sha256": "33f6c667b628c9a63106b6d9148f35eaa3a4ec665c43dfbc6b8440d320dfaccf",
+    "peTimestamp": 1790374934,
+    "accessorRva": "0x1750840",
+    "accessorBytes": "33c083f9ff0f44c84863c1488d0da6b6a404488b04c1c3",
+    "patternMatches": 1,
+    "displacementOffset": 14,
+    "instructionEndOffset": 18,
+    "localControllerArrayRva": "0x619bef8",
+    "primaryIndexConsumerRva": "0x1b3fdb6",
+    "primaryIndex": 0,
+    "fields": [
+      {
+        "name": "m_bIsLocalPlayerController",
+        "offset": "0x770",
+        "descriptorRva": "0x5a79610"
+      },
+      {
+        "name": "m_bIsHLTV",
+        "offset": "0x6d0",
+        "descriptorRva": "0x5a79570"
+      },
+      {
+        "name": "m_nPlayerID",
+        "offset": "0x908",
+        "descriptorRva": "0x5aa06d0"
+      },
+      {
+        "name": "m_hAssignedHero",
+        "offset": "0x90c",
+        "descriptorRva": "0x5aa06f0"
+      }
+    ],
+    "limitations": [
+      "The array index is a split-screen index, not a Dota PlayerID or network player slot.",
+      "Runtime controller and full-handle validation is still required.",
+      "Correct hero identity does not establish availability of enemy sight data."
+    ]
+  },
+  "liveSamples": [
+    {
+      "timeUtc": "2026-09-28T17:44:44.9920421+00:00",
+      "networkLocalValue": 4,
+      "controllers": [
+        {
+          "nativeGetterMatches": false,
+          "controllerIndex": 1,
+          "controllerType": ".?AVC_DOTAPlayerController@@",
+          "dotaPlayerId": 4,
+          "controllerTeam": 2,
+          "isLocalFlag": 0,
+          "isHltv": 0,
+          "slotPlusOneMatches": false,
+          "legacyIdMatches": true,
+          "assignedHeroHandle": "0x01C105C8",
+          "heroResolved": true,
+          "heroType": ".?AVC_DOTA_Unit_Hero_Earthshaker@@",
+          "heroTeam": 2,
+          "position": [
+            -6130.5625,
+            -431.65625,
+            128
+          ]
+        },
+        {
+          "nativeGetterMatches": true,
+          "controllerIndex": 5,
+          "controllerType": ".?AVC_DOTAPlayerController@@",
+          "dotaPlayerId": 9,
+          "controllerTeam": 3,
+          "isLocalFlag": 1,
+          "isHltv": 0,
+          "slotPlusOneMatches": true,
+          "legacyIdMatches": false,
+          "assignedHeroHandle": "0x00418396",
+          "heroResolved": true,
+          "heroType": ".?AVC_DOTA_Unit_Hero_Rubick@@",
+          "heroTeam": 3,
+          "position": [
+            4898.693,
+            -1695.422,
+            128
+          ]
+        }
+      ],
+      "teamData": [
+        {
+          "team": 2,
+          "handle": "0xFFFFFFFF",
+          "resolved": false,
+          "type": ""
+        },
+        {
+          "team": 3,
+          "handle": "0x01A0034B",
+          "resolved": true,
+          "type": ".?AVC_DOTA_DataDire@@"
+        }
+      ]
+    },
+    {
+      "timeUtc": "2026-09-28T17:44:45.3601569+00:00",
+      "networkLocalValue": 4,
+      "controllers": [
+        {
+          "nativeGetterMatches": false,
+          "controllerIndex": 1,
+          "controllerType": ".?AVC_DOTAPlayerController@@",
+          "dotaPlayerId": 4,
+          "controllerTeam": 2,
+          "isLocalFlag": 0,
+          "isHltv": 0,
+          "slotPlusOneMatches": false,
+          "legacyIdMatches": true,
+          "assignedHeroHandle": "0x01C105C8",
+          "heroResolved": true,
+          "heroType": ".?AVC_DOTA_Unit_Hero_Earthshaker@@",
+          "heroTeam": 2,
+          "position": [
+            -6130.5625,
+            -431.65625,
+            128
+          ]
+        },
+        {
+          "nativeGetterMatches": true,
+          "controllerIndex": 5,
+          "controllerType": ".?AVC_DOTAPlayerController@@",
+          "dotaPlayerId": 9,
+          "controllerTeam": 3,
+          "isLocalFlag": 1,
+          "isHltv": 0,
+          "slotPlusOneMatches": true,
+          "legacyIdMatches": false,
+          "assignedHeroHandle": "0x00418396",
+          "heroResolved": true,
+          "heroType": ".?AVC_DOTA_Unit_Hero_Rubick@@",
+          "heroTeam": 3,
+          "position": [
+            4966.3887,
+            -1817.4968,
+            128
+          ]
+        }
+      ],
+      "teamData": [
+        {
+          "team": 2,
+          "handle": "0xFFFFFFFF",
+          "resolved": false,
+          "type": ""
+        },
+        {
+          "team": 3,
+          "handle": "0x01A0034B",
+          "resolved": true,
+          "type": ".?AVC_DOTA_DataDire@@"
+        }
+      ]
+    },
+    {
+      "timeUtc": "2026-09-28T17:44:45.6712227+00:00",
+      "networkLocalValue": 4,
+      "controllers": [
+        {
+          "nativeGetterMatches": false,
+          "controllerIndex": 1,
+          "controllerType": ".?AVC_DOTAPlayerController@@",
+          "dotaPlayerId": 4,
+          "controllerTeam": 2,
+          "isLocalFlag": 0,
+          "isHltv": 0,
+          "slotPlusOneMatches": false,
+          "legacyIdMatches": true,
+          "assignedHeroHandle": "0x01C105C8",
+          "heroResolved": true,
+          "heroType": ".?AVC_DOTA_Unit_Hero_Earthshaker@@",
+          "heroTeam": 2,
+          "position": [
+            -6130.5625,
+            -431.65625,
+            128
+          ]
+        },
+        {
+          "nativeGetterMatches": true,
+          "controllerIndex": 5,
+          "controllerType": ".?AVC_DOTAPlayerController@@",
+          "dotaPlayerId": 9,
+          "controllerTeam": 3,
+          "isLocalFlag": 1,
+          "isHltv": 0,
+          "slotPlusOneMatches": true,
+          "legacyIdMatches": false,
+          "assignedHeroHandle": "0x00418396",
+          "heroResolved": true,
+          "heroType": ".?AVC_DOTA_Unit_Hero_Rubick@@",
+          "heroTeam": 3,
+          "position": [
+            5057.507,
+            -1891.2468,
+            128
+          ]
+        }
+      ],
+      "teamData": [
+        {
+          "team": 2,
+          "handle": "0xFFFFFFFF",
+          "resolved": false,
+          "type": ""
+        },
+        {
+          "team": 3,
+          "handle": "0x01A0034B",
+          "resolved": true,
+          "type": ".?AVC_DOTA_DataDire@@"
+        }
+      ]
+    }
+  ],
+  "productionProbeSamples": [
+    {
+      "time": "2026-09-28T17:53:10.8326539+00:00",
+      "state": "Unknown",
+      "playerId": 9,
+      "localTeam": 3,
+      "enemyTeam": 2,
+      "detail": "Enemy team 2 visibility data is not available in this client context. Missing data does not mean Hidden. Local Dota PlayerID 9; network slot 4; controller entity #5."
+    },
+    {
+      "time": "2026-09-28T17:53:11.1335763+00:00",
+      "state": "Unknown",
+      "playerId": 9,
+      "localTeam": 3,
+      "enemyTeam": 2,
+      "detail": "Enemy team 2 visibility data is not available in this client context. Missing data does not mean Hidden. Local Dota PlayerID 9; network slot 4; controller entity #5."
+    },
+    {
+      "time": "2026-09-28T17:53:11.3969543+00:00",
+      "state": "Unknown",
+      "playerId": 9,
+      "localTeam": 3,
+      "enemyTeam": 2,
+      "detail": "Enemy team 2 visibility data is not available in this client context. Missing data does not mean Hidden. Local Dota PlayerID 9; network slot 4; controller entity #5."
+    },
+    {
+      "time": "2026-09-28T17:53:11.6508994+00:00",
+      "state": "Unknown",
+      "playerId": 9,
+      "localTeam": 3,
+      "enemyTeam": 2,
+      "detail": "Enemy team 2 visibility data is not available in this client context. Missing data does not mean Hidden. Local Dota PlayerID 9; network slot 4; controller entity #5."
+    },
+    {
+      "time": "2026-09-28T17:53:11.9141664+00:00",
+      "state": "Unknown",
+      "playerId": 9,
+      "localTeam": 3,
+      "enemyTeam": 2,
+      "detail": "Enemy team 2 visibility data is not available in this client context. Missing data does not mean Hidden. Local Dota PlayerID 9; network slot 4; controller entity #5."
+    }
+  ],
+  "limitations": [
+    "Engine local-controller identity is verified, not enemy-view ground truth.",
+    "Old network-local value equals Dota PlayerID traces do not establish the user local hero.",
+    "Only the native local controller own-team data is present in these samples.",
+    "No universal enemy-sight source is established."
+  ]
+}

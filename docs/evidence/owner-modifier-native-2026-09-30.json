@@ -1,0 +1,245 @@
+{
+  "schemaVersion": 1,
+  "scope": "Installed binaries only; no remote host or live packet capture.",
+  "modules": [
+    {
+      "name": "client.dll",
+      "sha256": "88fa24c60a8c68f84d25cc2285019889c05db0c55b2bed1165d6f98fa7c18215"
+    },
+    {
+      "name": "server.dll",
+      "sha256": "02b90bbb5814bc1af39cada58b6b8311808e01e84aa8fab894bdaea896a8cd47"
+    }
+  ],
+  "clientContracts": [
+    {
+      "meaning": "passive update is no-op",
+      "rva": "0x12ef190",
+      "bytes": "c20000"
+    },
+    {
+      "meaning": "neutral-hit callback is no-op",
+      "rva": "0x1370f10",
+      "bytes": "33c048c702010000004889420848894210488bc2c3"
+    },
+    {
+      "meaning": "modifier manager getter",
+      "rva": "0x14fb5d0",
+      "bytes": "488b4130c3"
+    },
+    {
+      "meaning": "ability handle",
+      "rva": "0x14fa830",
+      "bytes": "8b5170"
+    },
+    {
+      "meaning": "ability full-handle guard",
+      "rva": "0x14fa878",
+      "bytes": "395010"
+    },
+    {
+      "meaning": "parent handle",
+      "rva": "0x14d9650",
+      "bytes": "8b5174"
+    },
+    {
+      "meaning": "parent full-handle guard",
+      "rva": "0x14d9693",
+      "bytes": "395010"
+    },
+    {
+      "meaning": "native instance token",
+      "rva": "0x14ff180",
+      "bytes": "8b4148c3"
+    },
+    {
+      "meaning": "true-sight cache validity first",
+      "rva": "0x14ffb6e",
+      "bytes": "6685ae7c030000"
+    },
+    {
+      "meaning": "modifier array count",
+      "rva": "0x14ffb8f",
+      "bytes": "48634610"
+    },
+    {
+      "meaning": "modifier array pointer",
+      "rva": "0x14ffbb0",
+      "bytes": "488b4618"
+    },
+    {
+      "meaning": "skip pending removals",
+      "rva": "0x14ffbbd",
+      "bytes": "f6819e00000004"
+    },
+    {
+      "meaning": "per-modifier property virtual dispatch",
+      "rva": "0x14ffbd1",
+      "bytes": "ff9000030000"
+    },
+    {
+      "meaning": "cache becomes valid",
+      "rva": "0x14ffbf8",
+      "bytes": "6609ae7c030000"
+    },
+    {
+      "meaning": "cache result",
+      "rva": "0x14ffc04",
+      "bytes": "6685ae7a030000"
+    }
+  ],
+  "serverContracts": [
+    {
+      "meaning": "desired-state comparison",
+      "rva": "0x137c2a6",
+      "bytes": "403af5"
+    },
+    {
+      "meaning": "true desired state",
+      "rva": "0x137c29e",
+      "bytes": "40b601"
+    },
+    {
+      "meaning": "false desired state",
+      "rva": "0x137c2a3",
+      "bytes": "4032f6"
+    },
+    {
+      "meaning": "activation delay",
+      "rva": "0x137c2e8",
+      "bytes": "f30f1097781a0000"
+    },
+    {
+      "meaning": "deadline storage",
+      "rva": "0x137c306",
+      "bytes": "f30f11878c1a0000"
+    },
+    {
+      "meaning": "neutral team check",
+      "rva": "0x1473d92",
+      "bytes": "80b94403000004"
+    },
+    {
+      "meaning": "neutral disable duration",
+      "rva": "0x1473d9b",
+      "bytes": "f30f108e7c1a0000"
+    },
+    {
+      "meaning": "neutral timer address",
+      "rva": "0x1473da3",
+      "bytes": "488d8e901a0000"
+    },
+    {
+      "meaning": "unit-state mask source",
+      "rva": "0x18cb572",
+      "bytes": "8b83200e0000"
+    },
+    {
+      "meaning": "unit-state bit 30",
+      "rva": "0x18cb578",
+      "bytes": "48c1e81e2401"
+    },
+    {
+      "meaning": "requested regeneration state",
+      "rva": "0x147f089",
+      "bytes": "84db745a"
+    },
+    {
+      "meaning": "linger duration",
+      "rva": "0x147f11b",
+      "bytes": "f3410f1086841a0000"
+    },
+    {
+      "meaning": "per-team visibility mask",
+      "rva": "0x1a000a2",
+      "bytes": "8b8344050000"
+    },
+    {
+      "meaning": "per-team bit selection",
+      "rva": "0x1a000af",
+      "bytes": "d3e723c73bc7"
+    }
+  ],
+  "branches": [
+    {
+      "meaning": "passive to opposing-team query",
+      "instructionRva": "0x137c26e",
+      "targetRva": "0x2472530",
+      "bytes": "e8bd620f01"
+    },
+    {
+      "meaning": "opposing-team query to mask primitive",
+      "instructionRva": "0x2472580",
+      "targetRva": "0x19fffd0",
+      "bytes": "e84bda58ff"
+    },
+    {
+      "meaning": "passive unit-state condition",
+      "instructionRva": "0x137c285",
+      "targetRva": "0x18cb540",
+      "bytes": "e8b6f25400"
+    },
+    {
+      "meaning": "delayed regeneration state change",
+      "instructionRva": "0x137c335",
+      "targetRva": "0x147f030",
+      "bytes": "e8f62c1000"
+    },
+    {
+      "meaning": "neutral suppression state change",
+      "instructionRva": "0x137c261",
+      "targetRva": "0x147f030",
+      "bytes": "e8ca2d1000"
+    },
+    {
+      "meaning": "neutral damage starts timer",
+      "instructionRva": "0x1473daa",
+      "targetRva": "0xd50ef0",
+      "bytes": "e841d18dff"
+    },
+    {
+      "meaning": "passive starts periodic work",
+      "instructionRva": "0x137bf23",
+      "targetRva": "0x16b0020",
+      "bytes": "e9f8403300"
+    }
+  ],
+  "passiveMethods": [
+    {
+      "nativeType": ".?AVCDOTA_Modifier_Slark_ShadowDance_Passive@@",
+      "vtableRva": "0x35c7f90",
+      "slot": 83,
+      "methodRva": "0x137c1c0"
+    },
+    {
+      "nativeType": ".?AVCDOTA_Modifier_Slark_ShadowDance_Passive@@",
+      "vtableRva": "0x438ae48",
+      "slot": 74,
+      "methodRva": "0x12ef190"
+    }
+  ],
+  "regenerationModifier": "modifier_slark_shadow_dance_passive_regen",
+  "passiveUpdateRegion": {
+    "startRva": "0x137c1c0",
+    "endRvaExclusive": "0x137c438",
+    "sha256": "07bb7ace836c920ac267456bd5e6276b2c43b32f7c871d52bc1c1869572a735c",
+    "note": "Includes code beyond the first short runtime-function/unwind entry."
+  },
+  "interpretation": {
+    "serverConsultsOpposingTeamVisibility": true,
+    "clientCounterpartComputesSamePredicate": false,
+    "effectIsDelayedAndConditioned": true,
+    "modifierPresenceIsInstantaneousVisibility": false,
+    "cacheValidityRequired": true,
+    "allHeroesSupportedByThisAbility": false,
+    "liveSlarkGroundTruthVerified": false,
+    "currentHeroVisibility": "Unknown",
+    "canDriveCurrentOverlay": false
+  },
+  "limitations": [
+    "No blanket assertion about every serializer or client signal.",
+    "Missing/expired modifiers and invalid caches are not Hidden.",
+    "Neutral effects, unit state, delay and linger must not be ignored.",
+    "Static causal code does not prove normal-client delivery or a measured transition."
+  ]
+}

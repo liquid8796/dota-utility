@@ -1,0 +1,91 @@
+﻿{
+  "schemaVersion": 1,
+  "reports": [
+    {
+      "module": "client.dll",
+      "sha256": "33f6c667b628c9a63106b6d9148f35eaa3a4ec665c43dfbc6b8440d320dfaccf",
+      "classCount": 14,
+      "registeredFieldCount": 328,
+      "positiveControls": [
+        {
+          "class": "C_BaseEntity",
+          "field": "m_iTeamNum",
+          "offset": "0x3e7",
+          "normalizedType": "uint8",
+          "encoder": ""
+        },
+        {
+          "class": "C_DOTA_BaseNPC",
+          "field": "m_nUnitState64",
+          "offset": "0x11c0",
+          "normalizedType": "uint64",
+          "encoder": ""
+        },
+        {
+          "class": "C_DOTA_BaseNPC_Hero",
+          "field": "m_iPlayerID",
+          "offset": "0x1a68",
+          "normalizedType": "PlayerID_t",
+          "encoder": ""
+        },
+        {
+          "class": "C_DOTA_DataNonSpectator",
+          "field": "m_bNPCVisibleState",
+          "offset": "0xe58",
+          "normalizedType": "uint64[256]",
+          "encoder": "fixed64"
+        }
+      ],
+      "namedMaskClasses": {
+        "m_iTeamVisibilityBitmask": [],
+        "m_iTaggedAsVisibleByTeam": []
+      },
+      "interpretation": "Named-field registration evidence only; no live enemy-sight result is inferred",
+      "perPacketDeliveryVerified": false,
+      "enemySightVerified": false
+    },
+    {
+      "module": "server.dll",
+      "sha256": "78e5533be686544508346ae69b80e812eaeff3f1cbc08c69ebdf02765739e189",
+      "classCount": 11,
+      "registeredFieldCount": 193,
+      "positiveControls": [
+        {
+          "class": "CBaseEntity",
+          "field": "m_iTeamNum",
+          "offset": "0x344",
+          "normalizedType": "uint8",
+          "encoder": ""
+        },
+        {
+          "class": "CDOTA_BaseNPC",
+          "field": "m_nUnitState64",
+          "offset": "0xe20",
+          "normalizedType": "uint64",
+          "encoder": ""
+        },
+        {
+          "class": "CDOTA_BaseNPC_Hero",
+          "field": "m_iPlayerID",
+          "offset": "0x1a08",
+          "normalizedType": "PlayerID_t",
+          "encoder": ""
+        },
+        {
+          "class": "CDOTA_DataNonSpectator",
+          "field": "m_bNPCVisibleState",
+          "offset": "0xd00",
+          "normalizedType": "uint64[256]",
+          "encoder": "fixed64"
+        }
+      ],
+      "namedMaskClasses": {
+        "m_iTeamVisibilityBitmask": [],
+        "m_iTaggedAsVisibleByTeam": []
+      },
+      "interpretation": "Named-field registration evidence only; no live enemy-sight result is inferred",
+      "perPacketDeliveryVerified": false,
+      "enemySightVerified": false
+    }
+  ]
+}

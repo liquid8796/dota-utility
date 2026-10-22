@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "method": "Offline build-pinned byte and RTTI verification; no game execution",
+  "builds": [
+    {
+      "name": "client.dll",
+      "sha256": "33f6c667b628c9a63106b6d9148f35eaa3a4ec665c43dfbc6b8440d320dfaccf",
+      "peTimestamp": 1790374934
+    },
+    {
+      "name": "server.dll",
+      "sha256": "78e5533be686544508346ae69b80e812eaeff3f1cbc08c69ebdf02765739e189",
+      "peTimestamp": 1790374835
+    }
+  ],
+  "callback": {
+    "name": "OnReplayComap_TaggedAsVisibleByTeam",
+    "nameRva": "0x488c470",
+    "registrationLeaRva": "0x1aba707",
+    "targetRva": "0x1af4770"
+  },
+  "nativeIdentityGuard": {
+    "instructionRva": "0x1af480a",
+    "bytes": "395010",
+    "instruction": "cmp dword ptr [rax + 0x10], edx"
+  },
+  "teamDataPolicies": [
+    {
+      "class": "CDOTA_DataRadiant",
+      "rtti": ".?AVCDOTA_DataRadiant@@",
+      "slot": 94,
+      "methodRva": "0x1eb8e80",
+      "bodySha256": "7abbb3563c1b4a658b19795978cd94172f9b12e9afdafe0db8670779d6cc3d3d",
+      "selectorComparisonBytes": "837f3002"
+    },
+    {
+      "class": "CDOTA_DataDire",
+      "rtti": ".?AVCDOTA_DataDire@@",
+      "slot": 94,
+      "methodRva": "0x1eb8dc0",
+      "bodySha256": "68d2beeafaac3da184a112bf27dad4274ae513666f0c5d76e70d6e5661fa3af7",
+      "selectorComparisonBytes": "837f3003"
+    }
+  ],
+  "staticFieldDescriptors": [
+    {
+      "module": "client.dll",
+      "name": "m_iTeamVisibilityBitmask",
+      "offset": "0x780",
+      "descriptorRva": "0x58be110",
+      "staticMetadataCount": 0
+    },
+    {
+      "module": "client.dll",
+      "name": "m_bNPCVisibleState",
+      "offset": "0xe58",
+      "descriptorRva": "0x5a97eb0",
+      "staticMetadataCount": 0
+    },
+    {
+      "module": "client.dll",
+      "name": "m_iTeamNum",
+      "offset": "0x3e7",
+      "descriptorRva": "0x58bf820",
+      "staticMetadataCount": 1
+    },
+    {
+      "module": "server.dll",
+      "name": "m_iTeamVisibilityBitmask",
+      "offset": "0x544",
+      "descriptorRva": "0x4776430",
+      "staticMetadataCount": 0
+    },
+    {
+      "module": "server.dll",
+      "name": "m_bNPCVisibleState",
+      "offset": "0xd00",
+      "descriptorRva": "0x499ed20",
+      "staticMetadataCount": 0
+    },
+    {
+      "module": "server.dll",
+      "name": "m_iTeamNum",
+      "offset": "0x344",
+      "descriptorRva": "0x4776d60",
+      "staticMetadataCount": 0
+    }
+  ],
+  "limitations": [
+    "Replay-named callback registration does not establish live callback delivery.",
+    "No full-handle matching implies stale slot occupants may be misidentified.",
+    "Static field metadata absence is not proof that a field is unreplicated.",
+    "No enemy-view ground truth or universal non-host support is established by this audit."
+  ]
+}

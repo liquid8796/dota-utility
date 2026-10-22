@@ -1,0 +1,194 @@
+<Window x:Class="DotaUtility.App.CloseConfirmationDialog"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:shell="clr-namespace:System.Windows.Shell;assembly=PresentationFramework"
+        Title="Close Dota Utility"
+        Width="460"
+        SizeToContent="Height"
+        WindowStartupLocation="CenterOwner"
+        WindowStyle="None"
+        ResizeMode="NoResize"
+        ShowInTaskbar="False"
+        Background="#0B0F19"
+        FontFamily="Segoe UI Variable Text, Segoe UI"
+        Foreground="{StaticResource TextPrimaryBrush}">
+    <shell:WindowChrome.WindowChrome>
+        <shell:WindowChrome CaptionHeight="36"
+                            ResizeBorderThickness="0"
+                            CornerRadius="16"
+                            GlassFrameThickness="0"
+                            UseAeroCaptionButtons="False"/>
+    </shell:WindowChrome.WindowChrome>
+
+    <Border Background="#F2121726"
+            BorderBrush="#38FFFFFF"
+            BorderThickness="1"
+            CornerRadius="16"
+            Padding="24,22,24,22">
+        <StackPanel>
+            <!-- Header -->
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Border Width="38" Height="38" CornerRadius="11" Background="#257C5CFF" BorderBrush="#557C5CFF" BorderThickness="1" VerticalAlignment="Top">
+                    <Grid>
+                        <Ellipse Width="16" Height="16" Stroke="#4FE3A4" StrokeThickness="2"/>
+                        <Ellipse Width="5" Height="5" Fill="#CBBEFF"/>
+                    </Grid>
+                </Border>
+                <StackPanel Grid.Column="1" Margin="14,0,0,0">
+                    <TextBlock Text="Close Dota Utility?"
+                               FontFamily="Segoe UI Variable Display, Segoe UI"
+                               FontSize="18"
+                               FontWeight="SemiBold"
+                               Foreground="{StaticResource TextPrimaryBrush}"/>
+                    <TextBlock Text="Choose what happens when you close the main window."
+                               FontSize="12"
+                               Foreground="{StaticResource TextSecondaryBrush}"
+                               Margin="0,4,0,0"
+                               TextWrapping="Wrap"/>
+                </StackPanel>
+            </Grid>
+
+            <!-- Choice cards -->
+            <StackPanel Margin="0,18,0,0">
+                <Border x:Name="MinimizeCard"
+                        CornerRadius="12"
+                        BorderThickness="1.5"
+                        Padding="14,12"
+                        Cursor="Hand"
+                        MouseLeftButtonDown="MinimizeCard_MouseLeftButtonDown">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <RadioButton x:Name="MinimizeRadio"
+                                     VerticalAlignment="Center"
+                                     IsChecked="True"
+                                     Checked="OptionRadio_Checked"/>
+                        <StackPanel Grid.Column="1" Margin="10,0,0,0">
+                            <TextBlock Text="Minimize to System Tray"
+                                       FontSize="13"
+                                       FontWeight="SemiBold"
+                                       Foreground="{StaticResource TextPrimaryBrush}"/>
+                            <TextBlock Text="Keep Dota Utility running in the system tray so the in-game particle ring stays active."
+                                       FontSize="11.5"
+                                       Foreground="{StaticResource TextSecondaryBrush}"
+                                       Margin="0,3,0,0"
+                                       TextWrapping="Wrap"/>
+                        </StackPanel>
+                    </Grid>
+                </Border>
+
+                <Border x:Name="ExitCard"
+                        Margin="0,10,0,0"
+                        CornerRadius="12"
+                        BorderThickness="1.5"
+                        Padding="14,12"
+                        Cursor="Hand"
+                        MouseLeftButtonDown="ExitCard_MouseLeftButtonDown">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <RadioButton x:Name="ExitRadio"
+                                     VerticalAlignment="Center"
+                                     Checked="OptionRadio_Checked"/>
+                        <StackPanel Grid.Column="1" Margin="10,0,0,0">
+                            <TextBlock Text="Exit Application"
+                                       FontSize="13"
+                                       FontWeight="SemiBold"
+                                       Foreground="{StaticResource TextPrimaryBrush}"/>
+                            <TextBlock Text="Stop visibility monitoring and close Dota Utility completely."
+                                       FontSize="11.5"
+                                       Foreground="{StaticResource TextSecondaryBrush}"
+                                       Margin="0,3,0,0"
+                                       TextWrapping="Wrap"/>
+                        </StackPanel>
+                    </Grid>
+                </Border>
+            </StackPanel>
+
+            <!-- Remember checkbox -->
+            <CheckBox x:Name="RememberCheckBox"
+                      Margin="2,16,0,0"
+                      VerticalContentAlignment="Center"
+                      Foreground="{StaticResource TextSecondaryBrush}"
+                      Cursor="Hand">
+                <TextBlock Text="Remember my choice (can be changed anytime in Settings)"
+                           FontSize="12"
+                           Foreground="{StaticResource TextSecondaryBrush}"/>
+            </CheckBox>
+
+            <!-- Action buttons -->
+            <Grid Margin="0,20,0,0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="10"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+
+                <Button Grid.Column="1"
+                        Content="Cancel"
+                        IsCancel="True"
+                        Click="Cancel_Click"
+                        Padding="18,9"
+                        Background="#18FFFFFF"
+                        Foreground="{StaticResource TextPrimaryBrush}"
+                        BorderBrush="#28FFFFFF"
+                        BorderThickness="1"
+                        Cursor="Hand">
+                    <Button.Template>
+                        <ControlTemplate TargetType="Button">
+                            <Border x:Name="BtnBorder"
+                                    Background="{TemplateBinding Background}"
+                                    BorderBrush="{TemplateBinding BorderBrush}"
+                                    BorderThickness="{TemplateBinding BorderThickness}"
+                                    CornerRadius="10"
+                                    Padding="{TemplateBinding Padding}">
+                                <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                            </Border>
+                            <ControlTemplate.Triggers>
+                                <Trigger Property="IsMouseOver" Value="True">
+                                    <Setter TargetName="BtnBorder" Property="Background" Value="#26FFFFFF"/>
+                                </Trigger>
+                            </ControlTemplate.Triggers>
+                        </ControlTemplate>
+                    </Button.Template>
+                </Button>
+
+                <Button Grid.Column="3"
+                        Content="Confirm"
+                        IsDefault="True"
+                        Click="Confirm_Click"
+                        Padding="22,9"
+                        FontWeight="SemiBold"
+                        Background="#7C5CFF"
+                        Foreground="#FFFFFF"
+                        BorderThickness="0"
+                        Cursor="Hand">
+                    <Button.Template>
+                        <ControlTemplate TargetType="Button">
+                            <Border x:Name="BtnBorder"
+                                    Background="{TemplateBinding Background}"
+                                    CornerRadius="10"
+                                    Padding="{TemplateBinding Padding}">
+                                <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                            </Border>
+                            <ControlTemplate.Triggers>
+                                <Trigger Property="IsMouseOver" Value="True">
+                                    <Setter TargetName="BtnBorder" Property="Background" Value="#8F73FF"/>
+                                </Trigger>
+                            </ControlTemplate.Triggers>
+                        </ControlTemplate>
+                    </Button.Template>
+                </Button>
+            </Grid>
+        </StackPanel>
+    </Border>
+</Window>

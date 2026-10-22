@@ -1,0 +1,28 @@
+<Window x:Class="DotaUtility.App.MinimapOverlayWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Width="244"
+        Height="244"
+        WindowStyle="None"
+        ResizeMode="NoResize"
+        AllowsTransparency="True"
+        Background="Transparent"
+        ShowInTaskbar="False"
+        ShowActivated="False"
+        Topmost="True"
+        Focusable="False"
+        IsHitTestVisible="False"
+        UseLayoutRounding="True"
+        SnapsToDevicePixels="True">
+    <Canvas x:Name="MinimapCanvas"
+            Width="244"
+            Height="244"
+            Background="Transparent"
+            ClipToBounds="True">
+        <Canvas.CacheMode>
+            <BitmapCache EnableClearType="False"
+                         RenderAtScale="1"
+                         SnapsToDevicePixels="True"/>
+        </Canvas.CacheMode>
+    </Canvas>
+</Window>

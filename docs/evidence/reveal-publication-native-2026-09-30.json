@@ -1,0 +1,284 @@
+{
+  "schemaVersion": 1,
+  "scope": "Installed DLLs only. Static publication route, not packet delivery or enemy-view ground truth.",
+  "modules": [
+    {
+      "name": "server.dll",
+      "sha256": "02b90bbb5814bc1af39cada58b6b8311808e01e84aa8fab894bdaea896a8cd47",
+      "code": [
+        {
+          "meaning": "new server visibility mask",
+          "rva": "0x24fb3f2",
+          "bytes": "8b8344050000"
+        },
+        {
+          "meaning": "previous published mask",
+          "rva": "0x24fb3f8",
+          "bytes": "8b93d40e0000"
+        },
+        {
+          "meaning": "newly visible teams only",
+          "rva": "0x24fb3fe",
+          "bytes": "f7d223d0"
+        },
+        {
+          "meaning": "store new published mask",
+          "rva": "0x24fb414",
+          "bytes": "4489b3d40e0000"
+        },
+        {
+          "meaning": "changed teams include gains and losses",
+          "rva": "0x24fb41b",
+          "bytes": "4433f0"
+        },
+        {
+          "meaning": "team bitmap word source",
+          "rva": "0x24fb559",
+          "bytes": "4a8b8ce1000d0000"
+        },
+        {
+          "meaning": "new team's current bit",
+          "rva": "0x24fb575",
+          "bytes": "85bbd40e0000"
+        },
+        {
+          "meaning": "team-data bitmap field address",
+          "rva": "0x24fb582",
+          "bytes": "498d8a000d0000"
+        },
+        {
+          "meaning": "bitmap setter skips unchanged word",
+          "rva": "0x24e8f63",
+          "bytes": "493b00"
+        },
+        {
+          "meaning": "notify bitmap field D00",
+          "rva": "0x24e9020",
+          "bytes": "c700000d0000"
+        },
+        {
+          "meaning": "network change virtual dispatch",
+          "rva": "0x24e9029",
+          "bytes": "ff90e0000000"
+        },
+        {
+          "meaning": "store changed bitmap word",
+          "rva": "0x24e9090",
+          "bytes": "488b07488906"
+        },
+        {
+          "meaning": "modifier gained-team mask must be nonzero",
+          "rva": "0x16af790",
+          "bytes": "85d2"
+        },
+        {
+          "meaning": "skip pending modifier removals",
+          "rva": "0x16af7e6",
+          "bytes": "f6879e00000004"
+        },
+        {
+          "meaning": "per-team modifier recipient predicate",
+          "rva": "0x16af808",
+          "bytes": "ff90b8000000"
+        },
+        {
+          "meaning": "remove rejected recipient bit",
+          "rva": "0x16af812",
+          "bytes": "0fb3de"
+        },
+        {
+          "meaning": "force modifier publication",
+          "rva": "0x16af81c",
+          "bytes": "41b0018bd6488bcf"
+        },
+        {
+          "meaning": "modifier publication has nonzero-mask guard",
+          "rva": "0x16aedc8",
+          "bytes": "85ff"
+        },
+        {
+          "meaning": "dirty flag cleared after publication",
+          "rva": "0x24fcb4c",
+          "bytes": "c6864905000000"
+        }
+      ],
+      "calls": [
+        {
+          "meaning": "mask update publishes changes",
+          "rva": "0x24fcb47",
+          "targetRva": "0x24fb3e0",
+          "bytes": "e894e8ffff"
+        },
+        {
+          "meaning": "gained-team modifier path",
+          "rva": "0x24fb402",
+          "targetRva": "0x16af790",
+          "bytes": "e889431bff"
+        },
+        {
+          "meaning": "filtered modifier publication",
+          "rva": "0x16af824",
+          "targetRva": "0x16aed80",
+          "bytes": "e857f5ffff"
+        },
+        {
+          "meaning": "modifier payload construction",
+          "rva": "0x16aee2a",
+          "targetRva": "0x16a8010",
+          "bytes": "e8e191ffff"
+        },
+        {
+          "meaning": "bitmap field setter",
+          "rva": "0x24fb58e",
+          "targetRva": "0x24e8f40",
+          "bytes": "e8add9feff"
+        },
+        {
+          "meaning": "forced FoW fallback query",
+          "rva": "0x24fcab1",
+          "targetRva": "0x16ac770",
+          "bytes": "e8bafc1aff"
+        }
+      ],
+      "types": [
+        {
+          "name": ".?AVCDOTA_BaseNPC@@",
+          "vtableRva": "0x3fa0e80",
+          "slot": 268,
+          "methodRva": "0x24fc840"
+        },
+        {
+          "name": ".?AVCDOTA_BaseNPC_Hero@@",
+          "vtableRva": "0x3fa2a80",
+          "slot": 268,
+          "methodRva": "0x24fc840"
+        },
+        {
+          "name": ".?AVCDOTA_Unit_Hero_Mirana@@",
+          "vtableRva": "0x2fdbde8",
+          "slot": 268,
+          "methodRva": "0x24fc840"
+        }
+      ]
+    },
+    {
+      "name": "client.dll",
+      "sha256": "88fa24c60a8c68f84d25cc2285019889c05db0c55b2bed1165d6f98fa7c18215",
+      "code": [
+        {
+          "meaning": "game manager vtable assigned",
+          "rva": "0x15bef24",
+          "bytes": "488901"
+        },
+        {
+          "meaning": "forced FoW result tests blocking modifier",
+          "rva": "0x14fc0e8",
+          "bytes": "4885c07411"
+        },
+        {
+          "meaning": "blocked forced FoW result is zero",
+          "rva": "0x14fc0ed",
+          "bytes": "897b04"
+        },
+        {
+          "meaning": "unblocked forced FoW result is one",
+          "rva": "0x14fc0fe",
+          "bytes": "c743040000803f"
+        }
+      ],
+      "calls": [
+        {
+          "meaning": "forced FoW blocking-modifier lookup",
+          "rva": "0x14fc0d5",
+          "targetRva": "0x1ad0e60",
+          "bytes": "e8864d5d00"
+        }
+      ],
+      "types": [
+        {
+          "name": ".?AVC_DOTAGameManager@@",
+          "vtableRva": "0x4741c08",
+          "slot": null,
+          "methodRva": null
+        },
+        {
+          "name": ".?AVC_DOTAGameManagerProxy@@",
+          "vtableRva": "0x4744d80",
+          "slot": null,
+          "methodRva": null
+        }
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "module": "server.dll",
+      "meaning": "full entity mask updater",
+      "startRva": "0x24fc840",
+      "endRvaExclusive": "0x24fcb59",
+      "sha256": "2b24f05a9dd7009789861461624a2b1e68ba37b72229ce31621d97b3e92d4d7e"
+    },
+    {
+      "module": "server.dll",
+      "meaning": "publication and team-data update",
+      "startRva": "0x24fb3e0",
+      "endRvaExclusive": "0x24fb640",
+      "sha256": "21549e9240157d853aa31b7b3b521d1000d4eecec2a7ff170c7d78c60c755bbf"
+    },
+    {
+      "module": "server.dll",
+      "meaning": "gained-team modifier filter",
+      "startRva": "0x16af790",
+      "endRvaExclusive": "0x16af858",
+      "sha256": "38faab2c526e2673c4b4dbbb435e7eca7c46583aa2347fde72a902bb1657a6ed"
+    },
+    {
+      "module": "server.dll",
+      "meaning": "networked bitmap word setter",
+      "startRva": "0x24e8f40",
+      "endRvaExclusive": "0x24e90a7",
+      "sha256": "53918ea67e00908b441b78dc2c86b5767c860a7ba929c8f5cc2260c03d33fe76"
+    },
+    {
+      "module": "client.dll",
+      "meaning": "forced FoW property callback",
+      "startRva": "0x14fbfe0",
+      "endRvaExclusive": "0x14fc113",
+      "sha256": "440d3f48f8ccb6409a1d296a8e03bd93a53b994d7b91a947adb5915886e67e85"
+    }
+  ],
+  "forcedFowBlocker": "modifier_slark_shadow_dance",
+  "hypotheticalTransitions": {
+    "enterEnemySight": {
+      "gained": 8,
+      "lost": 0,
+      "changed": 8
+    },
+    "leaveEnemySight": {
+      "gained": 0,
+      "lost": 8,
+      "changed": 8
+    },
+    "unchanged": {
+      "gained": 0,
+      "lost": 0,
+      "changed": 0
+    }
+  },
+  "interpretation": {
+    "teamBitmapCarriesBothDirections": true,
+    "modifierPathInputIsOnlyNewlyVisibleTeams": true,
+    "modifierRecipientsAreFilteredPerTeam": true,
+    "modifierPublicationPulseIsCurrentOwnerSight": false,
+    "normalOwnerClientDeliveryVerified": false,
+    "allPossibleClientChannelsExcluded": false,
+    "currentHeroVisibility": "Unknown",
+    "canDriveCurrentOverlay": false
+  },
+  "limitations": [
+    "A server recipient bit is not evidence the hero owner receives that team's bitmap.",
+    "Modifier serialization has additional gates; its input mask is not claimed to be a wire field.",
+    "Forced-FoW and true-sight properties have separate semantics and conditional blockers.",
+    "No addon was loaded or executed by this audit; Arcade script behavior must be separately scoped."
+  ]
+}
